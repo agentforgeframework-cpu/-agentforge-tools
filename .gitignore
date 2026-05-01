@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Python (just in case)
+__pycache__/
+*.pyc
+
+# Generated outputs (optional – decide your policy)
+# Uncomment if you don't want to track these
+# *.pdf
+# *.pptx
+# *.docx
+
+# Temp files
+*.tmp
+*.log
