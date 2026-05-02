@@ -12,17 +12,30 @@ CTS is a workflow built from three focused tools:
 
 ---
 
-## Where to Start
+## 🚀 Where to Start
 
-👉 Go to QUICKSTART.md
+👉 Go to **QUICKSTART.md** to get results in minutes
+
+---
+
+## How It Works
+
+Messy Input
+↓
+NoteCleanup → Structured Notes
+↓
+DeepDive → Insight (optional)
+↓
+VisualBrief → Shareable Output
+
 
 ---
 
 ## System Files
 
-CTS is powered by a set of core tools located in:
+CTS is powered by core tools located in:
 
-/cts/core/
+`/cts/core/`
 
 - NoteCleanup.md — structures messy input  
 - DeepDive.md — applies structured thinking  
@@ -42,6 +55,12 @@ CTS is not designed for:
 - automation workflows  
 - real-time systems  
 
-CTS is for:
+CTS is designed for:
 
 > human thinking and communication problems
+
+---
+
+## One-Line Summary
+
+> Turn messy input into clear thinking and usable output
