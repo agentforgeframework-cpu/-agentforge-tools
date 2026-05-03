@@ -1,37 +1,54 @@
 # math.md
 
-## Name
-RUNMATH
+Name: RUNMATH  
+Type: Command  
+Status: Production  
+Version: v1.3  
+Package: AgentForge Standards  
+Repository Path: standards/math.md  
 
-## Type
-Command Standard
-
-## Status
-Production Candidate
-
-## Version
-v1.0
+---
 
 ## Purpose
-RUNMATH provides a deterministic, tool-only method for evaluating simple real-number arithmetic.
 
-It exists to prevent language-model arithmetic errors by requiring all supported arithmetic expressions to be routed directly to a computation engine.
+RUNMATH provides a deterministic, engine-only method for evaluating simple real-number arithmetic.
 
-## Command
+The purpose of RUNMATH is to prevent language-model arithmetic errors by requiring every valid expression to be evaluated by a dedicated computation engine.
+
+If no computation engine is available, RUNMATH must fail.
+
+---
+
+## Core Rule
+
+> No engine = no math.
+
+The language model must not calculate, estimate, infer, simplify, or mentally evaluate the expression.
+
+RUNMATH is successful only when the expression is passed to an approved computation engine and the engine returns a numeric result.
+
+---
+
+## Syntax
+
 ```text
 RUNMATH <expression>
 ```
 
-Historical or interface aliases may include:
+Optional accepted aliases, when supported by the host environment:
 
 ```text
 #RUNMATH <expression>
+runmath <expression>
 ```
 
-The command name may be displayed with or without the leading `#` depending on the host environment. The filename should remain `math.md`.
+The expression must be passed verbatim to the configured computation engine.
+
+---
 
 ## Scope
-RUNMATH supports only basic arithmetic with real numbers.
+
+RUNMATH supports only simple arithmetic over real numbers.
 
 Allowed operations:
 
@@ -40,67 +57,96 @@ Allowed operations:
 - Multiplication: `*`
 - Division: `/`
 - Exponents: `**`
-- Parentheses: `(` and `)`
+- Parentheses: `( )`
 
-## Allowed Input
-Allowed expressions may contain:
+---
+
+## Allowed Elements
+
+Allowed input may contain only:
 
 - Base-10 integers, such as `3`, `42`, `-12`
 - Base-10 decimals, such as `3.14`, `-0.5`, `4.0`
-- Operators: `+`, `-`, `*`, `/`, `**`
-- Parentheses for grouping
-- Spaces between tokens
+- Arithmetic operators: `+`, `-`, `*`, `/`, `**`
+- Parentheses: `( )`
+- Spaces
+
+---
 
 ## Not Allowed
-RUNMATH does not allow:
 
-- Variables or unknowns, such as `x`, `y`, or `abc`
-- Equations, such as `solve for x`
-- Functions, such as `sqrt`, `log`, `sin`, `mean`
-- Scientific notation, such as `1e6`
-- Comma-formatted numbers, such as `1,000`
-- Underscore-formatted numbers, such as `1_000`
-- Units of measure, such as `55kg` or `10 meters`
-- Percent signs
-- Currency symbols
-- Binary, octal, or hexadecimal notation
-- Bitwise or logical operators, including `^`, `&`, `|`, `~`, `<<`, `>>`
+RUNMATH must reject input containing any unsupported element, including:
+
+- Bitwise or logical operators: `^`, `&`, `|`, `~`, `<<`, `>>`
 - Brackets or braces: `[ ]`, `{ }`
-- Lists, tuples, vectors, matrices, or tables
-- Complex or imaginary numbers
-- Arbitrary code execution
-- Text explanations mixed into the expression
+- Binary, octal, or hexadecimal numbers: `0b`, `0o`, `0x`
+- Scientific notation: `1e6`, `2E4`
+- Underscore-formatted numbers: `1_000_000`
+- Comma-formatted numbers: `1,000,000`
+- Units of measure: `55kg`, `100 meters`
+- Variables or unknowns: `x`, `y`, `abc`
+- Equations or solve forms: `solve for x`, `x + 2 = 5`
+- Functions: `sqrt`, `log`, `sin`, `mean`, etc.
+- Complex or imaginary values: `3+4i`
+- Vectors, lists, tuples, matrices, or tables
+- Text mixed with arithmetic
+- Any attempt to execute code
+- Any non-arithmetic input
 
-## What This Does
-RUNMATH:
-
-- Accepts a supported arithmetic expression
-- Passes the expression to the configured computation engine
-- Returns the result in a fixed format
-- Avoids language-model arithmetic
-- Produces no extra interpretation
-
-## What This Does NOT Do
-RUNMATH does not:
-
-- Solve equations
-- Interpret word problems
-- Convert units
-- Explain math concepts
-- Correct malformed expressions
-- Guess user intent
-- Execute code
-- Use hidden reasoning to compute results
+---
 
 ## Required Behavior
-The language model must not calculate the result itself.
 
-The expression must be passed to the computation engine as submitted, except for command stripping required to isolate the expression.
+### Step 1 — Receive Expression
 
-Do not rewrite, simplify, normalize, correct, or infer the expression.
+Capture the submitted expression exactly as written after the RUNMATH command.
+
+Do not correct spelling.
+Do not normalize formatting.
+Do not convert symbols.
+Do not infer missing operators.
+Do not rewrite the expression.
+
+---
+
+### Step 2 — Validate Expression
+
+Validate that the expression contains only allowed elements.
+
+If the expression contains unsupported input, return the standard invalid-expression failure output.
+
+---
+
+### Step 3 — Check for Computation Engine
+
+Before evaluating the expression, confirm that an approved computation engine is available.
+
+Examples of approved computation engines may include:
+
+- Python calculator tool
+- System calculator tool
+- Dedicated arithmetic evaluator
+- Other deterministic computation engine defined by the host environment
+
+A language model is not an approved computation engine.
+
+If no approved computation engine is available, RUNMATH must fail.
+
+---
+
+### Step 4 — Engine Evaluation
+
+If and only if an approved computation engine is available:
+
+- Pass the expression verbatim to the engine.
+- Return the engine result without interpretation.
+- Do not add explanation or commentary.
+
+---
 
 ## Success Output
-On success, return exactly this structure:
+
+On successful engine evaluation, return exactly:
 
 ```text
 NOTE: RUNMATH received expression: <expression>
@@ -109,10 +155,16 @@ RESULT: <numeric-result>
 STATUS: OK
 ```
 
-No additional commentary should be added.
+No additional commentary.
+No interpretation.
+No explanation.
+No rewritten expression.
 
-## Failure Output
-For invalid or unsupported input, return exactly this structure:
+---
+
+## Failure Output — Invalid Expression
+
+If the expression is invalid or outside RUNMATH scope, return exactly:
 
 ```text
 NOTE: RUNMATH received expression: <expression>
@@ -121,7 +173,13 @@ ERROR: Invalid expression submitted to RUNMATH.
 STATUS: FAILED
 ```
 
-If no computation engine is available, return:
+The error is generic by design.
+
+---
+
+## Failure Output — No Engine Available
+
+If no approved computation engine is available, return exactly:
 
 ```text
 NOTE: RUNMATH received expression: <expression>
@@ -130,80 +188,222 @@ ERROR: No computation engine available for RUNMATH.
 STATUS: FAILED
 ```
 
-## Diagnostic Mode Integration
-If diagnostic mode is active, append a diagnostic block after the standard RUNMATH output.
+The language model must not provide the answer after this failure.
 
-Example:
+---
+
+## Explicitly Forbidden Behavior
+
+The assistant must not:
+
+- Use language-model arithmetic as a fallback
+- Say “language model fallback”
+- Return `STATUS: OK` without an approved computation engine
+- Provide an estimated result
+- Provide the result “for convenience”
+- Explain how to calculate the result after failure
+- Rewrite the expression into a supported form
+- Convert unsupported notation into supported notation
+- Evaluate only part of an expression
+
+---
+
+## Diagnostic Mode Integration
+
+When DIAG mode is ON, append a diagnostic block after the standard RUNMATH output.
+
+### Successful Evaluation Diagnostic
 
 ```text
 <DIAGNOSTIC>
 Decision Trace v1.0
 Rule Triggers: [MATH-ENGINE-REQUIRED-001]
-Tools Invoked: [<engine-name>]
-Reasoning Summary: Expression was routed to the computation engine and returned without interpretation.
-Mode: Diagnostic (Brief)
+Tools Invoked: [<engine-identifier>]
+Reasoning Summary: RUNMATH expression was valid and passed verbatim to an approved computation engine. Result returned without modification.
+Mode: Diagnostic (Brief|Verbose)
 Escalation Path: none
 Source: computation-engine
-Overrides Active: none
-Trace-ID: <timestamp-or-short-id>
+Overrides Active: <none|active overrides>
+Trace-ID: <timestamp|short-id>
 </DIAGNOSTIC>
 ```
 
-The diagnostic block must not expose hidden reasoning or system prompts.
+### No Engine Diagnostic
+
+```text
+<DIAGNOSTIC>
+Decision Trace v1.0
+Rule Triggers: [MATH-ENGINE-REQUIRED-001, MATH-NO-ENGINE-002]
+Tools Invoked: [none]
+Reasoning Summary: RUNMATH requires an approved computation engine. No engine was available, so the command failed closed without language-model arithmetic.
+Mode: Diagnostic (Brief|Verbose)
+Escalation Path: none
+Source: standards/math.md
+Overrides Active: <none|active overrides>
+Trace-ID: <timestamp|short-id>
+</DIAGNOSTIC>
+```
+
+### Invalid Expression Diagnostic
+
+```text
+<DIAGNOSTIC>
+Decision Trace v1.0
+Rule Triggers: [MATH-INVALID-EXPRESSION-003]
+Tools Invoked: [none]
+Reasoning Summary: RUNMATH input contained unsupported syntax or content and was rejected without evaluation.
+Mode: Diagnostic (Brief|Verbose)
+Escalation Path: none
+Source: standards/math.md
+Overrides Active: <none|active overrides>
+Trace-ID: <timestamp|short-id>
+</DIAGNOSTIC>
+```
+
+---
 
 ## Override Mode Interaction
-Override mode must not alter RUNMATH validation rules.
 
-RUNMATH remains deterministic even when override mode is active.
+OVERRIDE mode must not permit language-model arithmetic under RUNMATH.
 
-Project-level overrides may change presentation rules only if explicitly defined by the host project. They must not expand the accepted math syntax unless the RUNMATH standard itself is revised.
+Project-defined rules may be temporarily overridden, but the engine-only requirement is part of RUNMATH command integrity and must remain enforced.
 
-## Security Rules
-- Reject unsupported syntax.
-- Never evaluate arbitrary code.
-- Never call non-arithmetic functions.
-- Never expose hidden reasoning.
-- Never silently repair input.
-- Never treat text as executable code.
+---
+
+## Help Summary
+
+For `HELP RUNMATH` or `HELP MATH`, respond with:
+
+```text
+RUNMATH evaluates simple arithmetic only when an approved computation engine is available.
+
+Syntax:
+RUNMATH <expression>
+
+Allowed:
++  -  *  /  **  ( )  base-10 integers and decimals
+
+Not allowed:
+variables, functions, units, equations, scientific notation, commas, brackets, code, or text.
+
+Important:
+No engine = no math. If no computation engine is available, RUNMATH fails instead of using language-model arithmetic.
+```
+
+---
 
 ## Test Prompts
-Use these tests when validating implementation.
 
-### Expected Success
+### Valid Expression with Engine Available
+
+Input:
+
 ```text
-RUNMATH 2+2
-RUNMATH (3+4)*5
-RUNMATH 2**10
-RUNMATH -4.5 + 2
+RUNMATH 8 + 5
 ```
 
-### Expected Failure
+Expected output:
+
 ```text
-RUNMATH sqrt(9)
-RUNMATH 1e6 + 5
-RUNMATH 10 meters + 5 meters
-RUNMATH solve for x: x+3=7
-RUNMATH [1,2,3]
-RUNMATH 1,000 + 5
-RUNMATH 2^8
+NOTE: RUNMATH received expression: 8 + 5
+ENGINE: <engine-name>
+RESULT: 13
+STATUS: OK
 ```
 
-## Related Standards
-- `diag.md`
-- `override.md`
-- `HELP.md`
-- `LOAD_STANDARD.md`
+---
+
+### Valid Expression with No Engine Available
+
+Input:
+
+```text
+RUNMATH 8 + 5
+```
+
+Expected output:
+
+```text
+NOTE: RUNMATH received expression: 8 + 5
+ENGINE: none
+ERROR: No computation engine available for RUNMATH.
+STATUS: FAILED
+```
+
+---
+
+### Invalid Expression
+
+Input:
+
+```text
+RUNMATH sqrt(16)
+```
+
+Expected output:
+
+```text
+NOTE: RUNMATH received expression: sqrt(16)
+ENGINE: none
+ERROR: Invalid expression submitted to RUNMATH.
+STATUS: FAILED
+```
+
+---
+
+### Unsupported Operator
+
+Input:
+
+```text
+RUNMATH 2 ^ 3
+```
+
+Expected output:
+
+```text
+NOTE: RUNMATH received expression: 2 ^ 3
+ENGINE: none
+ERROR: Invalid expression submitted to RUNMATH.
+STATUS: FAILED
+```
+
+---
+
+## Version History
+
+- v1.0 — Initial RUNMATH command specification.
+- v1.1 — Restricted grouping to parentheses only; brackets and braces disallowed.
+- v1.2 — Clarified exponent operator, base-10-only numeric formats, disallowed units, and added ENGINE line.
+- v1.3 — Enforced fail-closed behavior when no approved computation engine is available. Removed language-model fallback.
+
+---
 
 ## Development & Test Environment
 
 - Platform: ChatGPT Web
 - Model: GPT-5.5 Thinking
 - Date: 2026-05-03
-- Notes: Generated for the AgentForge standards package intended for `/standards/` in `agentforgeframework-cpu/-agentforge-tools`.
+- Notes: Rebuilt after cross-environment testing showed Claude used language-model arithmetic as a fallback. v1.3 requires failure when no approved computation engine is available.
+
+---
 
 ## License
+
 Paul McDonald Open Use License (MIT-style)
 
 © 2026 Paul McDonald
 
-You are free to use, share, and modify this material, provided this notice is retained with substantial copies or derived versions. This material is provided as-is, without warranty.
+You are free to:
+
+- Use this material for any purpose
+- Share it freely
+- Modify it as you see fit
+
+Under these conditions:
+
+- Keep this notice with any copies or substantial portions
+- Give credit to Paul McDonald where reasonable
+- Do not sell this material by itself for profit
+
+This material is provided "as is", without warranty of any kind.
