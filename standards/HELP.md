@@ -70,7 +70,7 @@ Do not use these standards to:
 | Deterministic arithmetic | `math.md` |
 | Diagnostic trace behavior | `diag.md` |
 | Temporary rule override | `override.md` |
-| Loading instructions | `LOAD_STANDARD.md` |
+| Loading instructions | `LOAD_STANDARDS.md` |
 | Fuller usage examples | `USER_GUIDE.md` |
 | Version history | `CHANGELOG.md` |
 
