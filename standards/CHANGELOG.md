@@ -1,5 +1,28 @@
 # CHANGELOG.md
+## [v1.3] — RUNMATH Strict Execution Enforcement
 
+### Changed
+- RUNMATH no longer allows language model fallback for arithmetic.
+- If no computation engine is available, RUNMATH now returns a failure instead of computing a result.
+
+### Behavior Update
+- Engine available → expression evaluated by computation engine.
+- No engine available → command fails with:
+  ERROR: No computation engine available for RUNMATH.
+  STATUS: FAILED
+
+### Rationale
+RUNMATH exists to eliminate LLM arithmetic errors. Allowing the model to compute results defeats that purpose and introduces inconsistency across environments.
+
+### Impact
+- Ensures deterministic, tool-only execution
+- Prevents silent degradation into approximate math
+- Improves portability and testability across environments
+
+### Notes
+- No changes to syntax, allowed operations, or input validation
+- Output format remains unchanged except for strict failure when no engine is present
+  
 ## AgentForge Standards Change Log
 
 This file tracks changes to the AgentForge standards package.
