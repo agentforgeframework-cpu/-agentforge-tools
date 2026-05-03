@@ -13,7 +13,7 @@ These standards are not a full workflow system. They are small, reusable behavio
 | `diag.md` | DIAGNOSTIC | Mode | Lightweight decision trace without hidden reasoning |
 | `override.md` | OVERRIDE | Mode | Controlled temporary override of project-defined rules |
 | `HELP.md` | HELP | Local help | Human-facing help for this standards package |
-| `LOAD_STANDARD.md` | LOAD_STANDARD | Loader | Instructions for loading and verifying this package |
+| `LOAD_STANDARDS.md` | LOAD_STANDARDS | Loader | Instructions for loading and verifying this package |
 | `USER_GUIDE.md` | USER_GUIDE | Guide | Practical usage guide for humans |
 | `CHANGELOG.md` | CHANGELOG | Log | Version history for the standards package |
 
@@ -82,7 +82,8 @@ https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards
 ```
 
 ## Loading Order
-Use `LOAD_STANDARD.md` for formal loading.
+Use `LOAD_STANDARDS.md` for formal loading.
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/LOAD_STANDARDS.md
 
 Recommended order:
 
