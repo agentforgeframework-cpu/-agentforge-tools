@@ -11,25 +11,25 @@ Use this file when your AI tool can read external links. If it cannot, follow th
 ## Repository Links 
 
 Core docs:
-- README: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/README.md
-- QUICKSTART: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/QUICKSTART.md
-- USER_GUIDE: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/USER_GUIDE.md
-- HELP: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/HELP.md
-- LOAD_CTS (this file): https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/LOAD_CTS.md
+- README: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md
+- QUICKSTART: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/QUICKSTART.md
+- USER_GUIDE: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/USER_GUIDE.md
+- HELP: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/HELP.md
+- LOAD_CTS (this file): https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/LOAD_CTS.md
 
 Core tools:
-- NoteCleanup: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/core/NoteCleanup.md
-- DeepDive: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/core/DeepDive.md
-- VisualBrief: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/core/VisualBrief.md
-- NoteIntake (optional): https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/core/NoteIntake.md
+- NoteCleanup: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core/NoteCleanup.md
+- DeepDive: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core/DeepDive.md
+- VisualBrief: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core/VisualBrief.md
+- NoteIntake (optional): https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core/NoteIntake.md
 
 Examples:
-- Example 1: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/examples/test-01-basic-meal-planning.md
-- Example 2: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/examples/test-02-event-planning-with-constraints.md
-- Example 3: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/examples/test-03-ai-modernization-decision-quality.md
+- Example 1: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-01-basic-meal-planning.md
+- Example 2: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-02-event-planning-with-constraints.md
+- Example 3: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-03-ai-modernization-decision-quality.md
 
 Media:
-- Sample image: https://github.com/agentforgeframework-cpu/-agentforge-tools/tree/main/cts/media/cts-visualbrief-clean-think-share.png
+- Sample image: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/media/cts-visualbrief-clean-think-share.png
 
 ---
 
@@ -45,8 +45,8 @@ Load and read the following in order:
 6) core/DeepDive.md  
 7) core/VisualBrief.md  
 8) core/NoteIntake.md (optional)
-9) examples/*.md (optional)
-10 media/*.png (optional)
+9) examples/*.md (optional, for validation and reference)
+10) media/*.png (optional)
 
 
 Do not skip files. Do not summarize during loading.
