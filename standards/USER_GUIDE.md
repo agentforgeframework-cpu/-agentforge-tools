@@ -26,7 +26,7 @@ standards/
   math.md
   diag.md
   override.md
-  LOAD_STANDARD.md
+  LOAD_STANDARDS.md
   USER_GUIDE.md
   CHANGELOG.md
 ```
