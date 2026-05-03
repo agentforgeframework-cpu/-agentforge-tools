@@ -44,7 +44,7 @@ The standards package is considered complete when all files below are present an
 | 5 | override.md | https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/override.md | https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/override.md |
 | 6 | USER_GUIDE.md | https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/USER_GUIDE.md | https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/USER_GUIDE.md |
 | 7 | CHANGELOG.md | https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/CHANGELOG.md | https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/CHANGELOG.md |
-| 8 | LOAD_STANDARD.md | https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/LOAD_STANDARD.md | https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/LOAD_STANDARD.md |
+| 8 | LOAD_STANDARDS.md | https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/LOAD_STANDARDS.md | https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/LOAD_STANDARDS.md |
 
 ---
 
@@ -59,7 +59,7 @@ Load files in this sequence:
 5. override.md
 6. USER_GUIDE.md
 7. CHANGELOG.md
-8. LOAD_STANDARD.md
+8. LOAD_STANDARDS.md
 
 Preferred loading method:
 
