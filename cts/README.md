@@ -1,96 +1,156 @@
-# README.md - Clean → Think → Share (CTS)
+# README.md — CTS
 
 ## What This Is
 
-A simple, practical system for turning messy, imperfect input into clear, actionable understanding.
+A simple, practical system for turning messy, imperfect input into
+clear, actionable understanding.
 
-CTS is a workflow built from three focused tools:
+It is built from three focused tools:
 
-- Clean → NoteCleanup  
-- Think → DeepDive  
-- Share → VisualBrief  
+1.  **NoteCleanup** --- Clean messy input\
+2.  **DeepDive** --- Think through it clearly\
+3.  **VisualBrief** --- Share it effectively
 
----
+Together, they form a workflow:
 
-## 🚀 Where to Start
+**Clean → Think → Share (CTS)**
 
-👉 Go to **QUICKSTART.md** to get results in minutes
+------------------------------------------------------------------------
 
----
+## The Workflow: Clean--Think--Share
 
-## How It Works
+### 1. Clean --- NoteCleanup
 
-Messy Input  
-↓  
-NoteCleanup → Structured Notes  
-↓  
-DeepDive → Insight (optional)  
-↓  
-VisualBrief → Shareable Output
+Take messy notes, transcripts, or mixed input and turn it into: -
+structured notes\
+- clear summary\
+- key ideas\
+- questions and next steps
 
----
+------------------------------------------------------------------------
 
-## System Files
+### 2. Think --- DeepDive
 
-CTS is powered by core tools located in:
+Take the cleaned output and apply structured thinking: - deeper insight\
+- risks and assumptions\
+- strategic direction\
+- decision clarity
 
-`/cts/core/`
+------------------------------------------------------------------------
 
-- NoteCleanup.md — structures messy input  
-- DeepDive.md — applies structured thinking  
-- VisualBrief.md — creates shareable output  
-- NoteIntake.md — captures raw input (optional)
+### 3. Share --- VisualBrief
 
-You do not need to modify these files to use CTS.
+Turn the result into something others can use: - clean visual summary\
+- conference-ready graphic\
+- slide or document (fallback if needed)
 
----
+------------------------------------------------------------------------
 
-## What CTS Does NOT Do
+## Quick Start (Beginner Guide)
 
-CTS is not designed for:
+### Step 1 --- Gather Input
 
-- structured data processing (tables, databases, pipelines)  
-- precise calculations  
-- automation workflows  
-- real-time systems  
+Use anything: - messy notes\
+- transcript\
+- meeting capture\
+- chat text\
+- slide text
 
-CTS is designed for:
+Do NOT clean it first.
 
-> human thinking and communication problems
+------------------------------------------------------------------------
 
----
+### Step 2 --- Clean
 
-## One-Line Summary
+Say: \> Run NoteCleanup on this:
 
-> Turn messy input into clear thinking and usable output
+Paste your input.
 
----
+------------------------------------------------------------------------
 
-## AI Platform Notes
+### Step 3 --- Think
 
-CTS (Clean → Think → Share) is designed to work across multiple AI platforms. However, behavior will vary depending on how well each platform respects structured workflows.
+Say: \> Perform DeepDive on this:
 
-- **ChatGPT**  
-  Strong fit for CTS. Handles structured workflows, file-based inputs, and staged execution reliably.
+Use the cleaned output.
 
-- **Claude**  
-  Strong reasoning and writing. May require explicit prompts to maintain stage discipline (Clean → Think → Share).
+------------------------------------------------------------------------
 
-- **Gemini**  
-  Useful for research and Google-connected workflows. Verify that outputs maintain CTS structure.
+### Step 4 --- Share
 
-- **Grok**  
-  Fast and conversational. Good for exploration. Validate outputs before treating them as completed CTS runs.
+Say: \> Create a VisualBrief from this:
 
-- **MetaAI**  
-  Understands the concept of CTS but may collapse steps into a single response. Use caution for business, legal, or decision-critical workflows unless each stage is explicitly verified.
+Use either cleaned notes or DeepDive output.
 
-**General Rule:**  
-CTS is successful only when the platform preserves the workflow:
+------------------------------------------------------------------------
 
-> Clean → Think → Share
+## Simple Example
 
-If the AI blends steps, skips structure, or adds unsupported detail, treat the result as a draft—not a completed CTS run.
+**Input:** - fast meeting notes\
+- partial transcript\
+- slide photos
+
+**Process:** 1. Clean → structured notes\
+2. Think → insight and direction\
+3. Share → visual summary
+
+**Result:** - clear understanding\
+- actionable direction\
+- professional output
+
+------------------------------------------------------------------------
+
+## File Overview
+
+-   `NoteCleanup.md` → Cleanup system\
+-   `DeepDive.md` → Thinking system\
+-   `VisualBrief.md` → Visual output system\
+-   `README.md` → This guide
+
+------------------------------------------------------------------------
+
+## Core Principle
+
+> Accept imperfect input. Produce reliable output.
+
+------------------------------------------------------------------------
+
+## Design Philosophy
+
+-   Small tools\
+-   Clear purpose\
+-   No overlap\
+-   Composable workflow\
+-   No hidden logic\
+-   Traceable output
+
+------------------------------------------------------------------------
+
+## Tips
+
+-   Don't pre-clean input\
+-   Don't skip steps on messy data\
+-   Use DeepDive only when needed\
+-   Use VisualBrief for communication
+
+------------------------------------------------------------------------
+
+## License
+
+Paul McDonald Open Use License (MIT-style)
+
+© 2026 Paul McDonald
+
+You are free to: - Use this material for any purpose\
+- Share it freely\
+- Modify it as you see fit
+
+Under these conditions: - Keep this notice with any copies or
+substantial portions\
+- Give credit to Paul McDonald where reasonable\
+- Do not sell this material by itself for profit
+
+This material is provided "as is", without warranty of any kind.
 
 ---
 
@@ -116,11 +176,12 @@ Last Updated:
 # Development & Test Environment
 
 - Platform: ChatGPT (Web)
-- Model: GPT-5.5 Thinking
-- Date: 2026-04-30
+- Model: GPT-5.3
+- Date: 2026-05-04
 
 Notes:
 - Developed and tested as part of the AgentForge / CTS workflow.
+- This block is for record-keeping and future development. It may appear in outputs but is not user-facing.
 
 ---
 
@@ -145,4 +206,3 @@ Under these conditions:
 This material is provided "as is", without warranty of any kind.
 
 ---
-
