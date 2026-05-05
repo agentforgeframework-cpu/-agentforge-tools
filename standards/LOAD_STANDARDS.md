@@ -247,6 +247,29 @@ Last Updated:
 
 ---
 
+## Troubleshooting — File Access Issues
+
+If a file fails to load, do not assume success. Verify the following:
+
+1. Confirm the file exists at the expected path:
+   - Core standards are located under:
+     /standards/core/
+   - Example:
+     /standards/core/rules.md
+
+2. Confirm the RAW link is correct and accessible.
+
+3. If the file appears outdated or inconsistent, retry with a cache-buster:
+   - Example:
+     https://raw.githubusercontent.com/.../rules.md?v=20260504
+
+Notes:
+- Some AI platforms may cache results within a session.
+- Others (like Claude) do not cache between sessions.
+- Always verify file existence and path first before assuming caching issues.
+
+---
+
 # Development & Test Environment
 
 - Platform: ChatGPT Web
