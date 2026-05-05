@@ -6,7 +6,8 @@ This file is for AI systems.
 
 Provide a single, reliable entry point for AI tools to load and use the AgentForge Standards package from GitHub.
 
-Use this file when your AI tool can read external links. If it cannot, follow the fallback instructions below.
+Use this file when your AI tool can read external links.  
+If it cannot, follow the fallback instructions below.
 
 For human-readable instructions, use QUICKSTART.md.
 
@@ -19,40 +20,40 @@ You can control the input.
 
 ## Link Policy
 
-LOAD_STANDARDS.md uses raw GitHub links for loading.
+LOAD_STANDARDS.md uses RAW GitHub links for loading.
 
-Raw links are preferred for AI loading because they provide file content without GitHub page chrome.
+RAW links are required for AI systems because they provide clean file content without GitHub page UI elements.
 
-Human-readable GitHub page links are provided later as references.
+Human-readable GitHub page links are provided later for reference.
 
 ---
 
-## Required Repository Links — Raw Loading Links
+## Required Repository Links — RAW Loading Links
 
 Core docs:
 
-- README: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/README.md
-- QUICKSTART: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/QUICKSTART.md
-- HELP: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/HELP.md
-- USER_GUIDE: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/USER_GUIDE.md
-- CHANGELOG: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/CHANGELOG.md
-- LOAD_STANDARDS: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/LOAD_STANDARDS.md
+- README: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/README.md  
+- QUICKSTART: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/QUICKSTART.md  
+- HELP: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/HELP.md  
+- USER_GUIDE: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/USER_GUIDE.md  
+- CHANGELOG: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/CHANGELOG.md  
+- LOAD_STANDARDS: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/LOAD_STANDARDS.md  
 
 Core standards:
 
-- math: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/math.md
-- diag: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/diag.md
-- override: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/override.md
-- rules: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/rules.md
-- chatexport: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/chatexport.md
+- math: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/math.md  
+- diag: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/diag.md  
+- override: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/override.md  
+- rules: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/rules.md  
+- chatexport: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/core/chatexport.md  
 
 Optional examples:
 
-- math_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/math_example.md
-- diag_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/diag_example.md
-- override_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/override_example.md
-- rules_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/rules_example.md
-- chatexport_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/chatexport_example.md
+- math_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/math_example.md  
+- diag_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/diag_example.md  
+- override_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/override_example.md  
+- rules_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/rules_example.md  
+- chatexport_example: https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/examples/chatexport_example.md  
 
 ---
 
@@ -60,28 +61,20 @@ Optional examples:
 
 Core docs:
 
-- README: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/README.md
-- QUICKSTART: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/QUICKSTART.md
-- HELP: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/HELP.md
-- USER_GUIDE: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/USER_GUIDE.md
-- CHANGELOG: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/CHANGELOG.md
-- LOAD_STANDARDS: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/LOAD_STANDARDS.md
+- README: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/README.md  
+- QUICKSTART: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/QUICKSTART.md  
+- HELP: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/HELP.md  
+- USER_GUIDE: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/USER_GUIDE.md  
+- CHANGELOG: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/CHANGELOG.md  
+- LOAD_STANDARDS: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/LOAD_STANDARDS.md  
 
 Core standards:
 
-- math: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/math.md
-- diag: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/diag.md
-- override: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/override.md
-- rules: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/rules.md
-- chatexport: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/chatexport.md
-
-Optional examples:
-
-- math_example: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/math_example.md
-- diag_example: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/diag_example.md
-- override_example: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/override_example.md
-- rules_example: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/rules_example.md
-- chatexport_example: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/chatexport_example.md
+- math: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/math.md  
+- diag: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/diag.md  
+- override: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/override.md  
+- rules: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/rules.md  
+- chatexport: https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/chatexport.md  
 
 ---
 
@@ -107,15 +100,13 @@ Do not summarize during loading.
 
 ## Optional Load Order
 
-Examples are optional and are used for learning, validation, and onboarding.
+Examples are optional:
 
 11) examples/math_example.md  
 12) examples/diag_example.md  
 13) examples/override_example.md  
 14) examples/rules_example.md  
 15) examples/chatexport_example.md  
-
-Examples are not required for operation.
 
 ---
 
@@ -124,61 +115,72 @@ Examples are not required for operation.
 - Do not summarize the system during load.
 - Confirm readiness after loading.
 - Wait for user input before executing.
-- Do not invent missing files or reconstruct inaccessible files.
+- Do not invent or reconstruct missing files.
 - Treat this package as submission standards, not model behavior control.
-- Do not proceed as if the standards package is loaded if any required file cannot be accessed.
+- Do not proceed if required files are missing.
 
 ---
 
 ## Expected Behavior
 
-After loading, the AI tool should understand:
+After loading, the AI should recognize:
 
-- math.md standardizes calculation submissions.
-- diag.md standardizes diagnostic submissions.
-- override.md standardizes explicit user intent and temporary exception handling.
-- rules.md standardizes visible rule identification and reporting.
-- chatexport.md standardizes condensed export output.
-- HELP.md provides local package help.
-- QUICKSTART.md provides fast human onboarding.
-- USER_GUIDE.md provides practical usage guidance.
-- CHANGELOG.md records package changes.
+Commands:
+- RUNMATH
+
+Modes:
+- DIAG
+- OVERRIDE
+
+Standards:
+- RULES
+- CHATEXPORT
+
+---
+
+## Troubleshooting — File Access Issues
+
+If a file fails to load, do not assume success. Verify the following:
+
+1. Confirm the file exists at the exact expected path in the repository:
+   - Core standards are located under: `/standards/core/`
+   - Example: `/standards/core/rules.md`
+
+2. Confirm the RAW link is correct and accessible.
+
+3. Confirm the RAW link resolves to readable markdown (not a single compressed line).
+
+4. If the file appears outdated or inconsistent, retry with a cache-buster:
+   - Example:
+     https://raw.githubusercontent.com/.../rules.md?v=20260504
+
+Notes:
+
+- Some AI platforms may cache results within a session.
+- Others (like Claude) do not cache between sessions.
+- Always verify file existence and path first before assuming caching issues.
 
 ---
 
 ## Link Access Failure Protocol
 
-If one or more required linked standards files cannot be accessed:
+If any required file cannot be accessed:
 
 1. Stop.
-2. Do not guess or reconstruct the missing file.
-3. Report exactly which file or link could not be accessed.
-4. Tell the human that AgentForge Standards were not fully loaded.
-5. Provide next suggested actions.
+2. Do not guess or reconstruct.
+3. Report missing files clearly.
+4. Inform the user the system is not fully loaded.
 
-### Next Suggested Actions
+Required message:
 
-The human may:
-
-- upload the missing files directly
-- paste the missing file contents into the chat
-- provide corrected GitHub links
-- switch to a model or tool that can read external links
-- use the local file package instead of URL loading
-
-### Required Failure Message
-
-> AgentForge Standards could not be fully loaded because one or more required files were not accessible. I should not proceed as if the standards package is loaded. Please upload the missing files, paste their contents, or provide corrected links.
-
-Then list the missing files.
+AgentForge Standards could not be fully loaded because one or more required files were not accessible. I should not proceed as if the standards package is loaded.
 
 ---
 
 ## Success Confirmation
 
-When loading succeeds, return:
+Return exactly:
 
-```text
 STANDARD LOAD COMPLETE
 
 Files loaded:
@@ -193,11 +195,8 @@ core/rules.md
 core/chatexport.md
 CHANGELOG.md
 
-Optional examples loaded:
-<list examples loaded, or none>
-
 STATUS: OK
-```
+
 
 ---
 
@@ -205,23 +204,19 @@ STATUS: OK
 
 If the user says:
 
-```text
 Run standards self-check
-```
 
-You should:
+Then:
 
-- Confirm all required files were loaded.
-- Confirm understanding of each standard.
-- Confirm whether optional examples were loaded.
-- Confirm readiness to execute.
-- Do not run any standard unless requested.
+- Confirm all required files loaded
+- Confirm recognition of all tools
+- Confirm readiness
 
 ---
 
 ## One-Line Summary
 
-> Load AgentForge Standards → Use structured submissions → Produce more reliable AI output
+Load → Structure input → Improve output reliability
 
 ---
 
@@ -236,69 +231,23 @@ https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main
 Related Blog Article:  
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
 
-AgentForge Blog:  
-https://agentforgeframework.blogspot.com/
-
-Version:  
-v2.0
-
-Last Updated:  
-2026-05-04
-
 ---
 
-## Troubleshooting — File Access Issues
+## Development & Test Environment
 
-If a file fails to load, do not assume success. Verify the following:
-
-1. Confirm the file exists at the expected path:
-   - Core standards are located under:
-     /standards/core/
-   - Example:
-     /standards/core/rules.md
-
-2. Confirm the RAW link is correct and accessible.
-
-3. If the file appears outdated or inconsistent, retry with a cache-buster:
-   - Example:
-     https://raw.githubusercontent.com/.../rules.md?v=20260504
+- Platform: ChatGPT Web  
+- Model: GPT-5.5 Thinking  
+- Date: 2026-05-04  
 
 Notes:
-- Some AI platforms may cache results within a session.
-- Others (like Claude) do not cache between sessions.
-- Always verify file existence and path first before assuming caching issues.
+- Updated after cross-model validation (Claude)
+- Added structured troubleshooting protocol
+- Clarified submission standards positioning
 
 ---
 
-# Development & Test Environment
-
-- Platform: ChatGPT Web
-- Model: GPT-5.5 Thinking
-- Date: 2026-05-04
-
-Notes:
-- Revised as part of AgentForge Standards packaging and cross-model loading tests.
-- Clarifies that AgentForge Standards are submission standards, not model behavior control.
-
-- Uses raw GitHub links for loading and GitHub page links for human reference.
-- Examples are optional and not required for operation.
----
-
-# License
+## License
 
 Paul McDonald Open Use License (MIT-style)
 
 © 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself as a standalone product
-
-This material is provided "as is", without warranty of any kind.
-
