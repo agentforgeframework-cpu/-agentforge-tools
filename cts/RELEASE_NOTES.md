@@ -1,67 +1,79 @@
 # RELEASE_NOTES.md — CTS
 
-## Overview
-CTS turns messy input into clear thinking.
-
-## Includes
-- NoteCleanup
-- DeepDive
-- VisualBrief
-
-## Status
-Production Ready
-
----
-
-## File Reference
-
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/RELEASE_NOTES.md
 
-Related Blog Article:  
-https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html
-
-AgentForge Blog:  
-https://agentforgeframework.blogspot.com/
-
-Version:  
-v1.0 (Published)
-
-Last Updated:  
-2026-05-04
+Raw GitHub URL:  
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/cts/RELEASE_NOTES.md
 
 ---
 
-# Development & Test Environment
+## Release
+
+CTS v1.1.0 — Canonical Kit Conversion
+
+Date: 2026-05-07
+
+---
+
+## Overview
+
+CTS is now structured as the first canonical AgentForge Kit reference implementation.
+
+The kit keeps the original Clean → Think → Share workflow while adding clearer setup, naming, and kit structure.
+
+---
+
+## Major Changes
+
+- Added `SETUP_CTS.md` for AI-assisted setup.
+- Added `QUICKSTART_CTS.md` for human fast-start use.
+- Added `KIT_MANIFEST_CTS.md` as an example manifest.
+- Moved primary operational tools into `/core-tools/`.
+- Clarified `/examples/` as the required location for runnable examples and usage tests.
+- Reserved `/validation/` for optional formal validation artifacts.
+- Clarified that `/governance/` is only used for additional kit-specific governance.
+- Added 2 AM Engineer Test language.
+
+---
+
+## Compatibility Notes
+
+`LOAD_CTS.md` is superseded by `SETUP_CTS.md`.
+
+`QUICKSTART.md` is superseded by `QUICKSTART_CTS.md`.
+
+Both legacy files may remain as compatibility bridges.
+
+---
+
+## Upgrade Note
+
+`Converge.md` is intentionally not included in this release.
+
+It is held out as the first future upgrade-process test for CTS.
+
+---
+
+## Status
+
+Production reference kit.
+
+---
+
+## Development & Test Environment
 
 - Platform: ChatGPT (Web)
-- Model: GPT-5.3
-- Date: 2026-05-04
+- Model: GPT-5.5 Thinking
+- Date: 2026-05-07
 
 Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-- This block is for record-keeping and future development. It may appear in outputs but is not user-facing.
+- Updated during the CTS canonical kit conversion.
 
 ---
 
-# License
+## License
 
 This project is released under a permissive, MIT-style license.
 
 Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself as a standalone product
-
-This material is provided "as is", without warranty of any kind.
-
----

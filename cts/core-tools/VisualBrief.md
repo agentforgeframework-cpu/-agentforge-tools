@@ -152,7 +152,7 @@ help visualbrief → Show commands and workflow.
 
 - Platform: ChatGPT (Web)
 - Model: GPT-5.5 Thinking
-- Date: 2026-04-30
+- Date: 2026-05-07
 
 Notes:
 - Developed and tested as part of the AgentForge / CTS workflow.
@@ -184,7 +184,7 @@ This material is provided "as is", without warranty of any kind.
 ## File Reference
 
 GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core/VisualBrief.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/VisualBrief.md
 
 Related Blog Article:  
 https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html

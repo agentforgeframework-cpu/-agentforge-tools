@@ -1,191 +1,210 @@
 # README.md — CTS
 
+GitHub Location:  
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md
+
+Raw GitHub URL:  
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/cts/README.md
+
+---
+
 ## What This Is
 
-A simple, practical system for turning messy, imperfect input into
-clear, actionable understanding.
+Clean–Think–Share (CTS) is an AgentForge Kit for turning messy, imperfect input into clear, actionable understanding.
 
-It is built from three focused tools:
+CTS follows a simple workflow:
 
-1.  **NoteCleanup** --- Clean messy input\
-2.  **DeepDive** --- Think through it clearly\
-3.  **VisualBrief** --- Share it effectively
+**Clean → Think → Share**
 
-Together, they form a workflow:
+The kit is intentionally built from small, focused tools that work together without merging responsibilities.
 
-**Clean → Think → Share (CTS)**
+---
 
-------------------------------------------------------------------------
+## The Workflow
 
-## The Workflow: Clean--Think--Share
+### 1. Clean — NoteCleanup
 
-### 1. Clean --- NoteCleanup
+Use NoteCleanup to:
+- organize messy notes
+- stabilize incomplete input
+- extract signal from noise
+- create reusable structured output
 
-Take messy notes, transcripts, or mixed input and turn it into: -
-structured notes\
-- clear summary\
-- key ideas\
-- questions and next steps
+---
 
-------------------------------------------------------------------------
+### 2. Think — DeepDive
 
-### 2. Think --- DeepDive
+Use DeepDive to:
+- analyze ideas and decisions
+- identify risks and assumptions
+- apply structured thinking models
+- improve clarity and direction
 
-Take the cleaned output and apply structured thinking: - deeper insight\
-- risks and assumptions\
-- strategic direction\
-- decision clarity
+DeepDive is optional. Use it when decision quality, strategy, risk, or structured thinking matters.
 
-------------------------------------------------------------------------
+---
 
-### 3. Share --- VisualBrief
+### 3. Share — VisualBrief
 
-Turn the result into something others can use: - clean visual summary\
-- conference-ready graphic\
-- slide or document (fallback if needed)
+Use VisualBrief to:
+- create visual summaries
+- generate presentation-ready outputs
+- communicate findings clearly
+- create professional artifacts
 
-------------------------------------------------------------------------
+---
 
-## Quick Start (Beginner Guide)
+## Included Core Tools
 
-### Step 1 --- Gather Input
+| Tool | Purpose |
+|---|---|
+| NoteIntake | Rapid information gathering |
+| NoteCleanup | Stabilize messy input |
+| DeepDive | Structured analysis |
+| VisualBrief | Shareable visual communication |
 
-Use anything: - messy notes\
-- transcript\
-- meeting capture\
-- chat text\
-- slide text
+Core tools are located in:
 
-Do NOT clean it first.
+```text
+/core-tools/
+```
 
-------------------------------------------------------------------------
+---
 
-### Step 2 --- Clean
+## Key Files
 
-Say: \> Run NoteCleanup on this:
+| File | Purpose |
+|---|---|
+| README.md | Main kit overview |
+| QUICKSTART_CTS.md | Human fast-start guide |
+| SETUP_CTS.md | AI-assisted kit setup and orchestration |
+| KIT_MANIFEST_CTS.md | Example kit manifest for the canonical CTS kit |
 
-Paste your input.
+---
 
-------------------------------------------------------------------------
+## Directory Structure
 
-### Step 3 --- Think
+```text
+/cts/
+  README.md
+  QUICKSTART_CTS.md
+  SETUP_CTS.md
+  KIT_MANIFEST_CTS.md
 
-Say: \> Perform DeepDive on this:
+  /core-tools/
+    NoteIntake.md
+    NoteCleanup.md
+    DeepDive.md
+    VisualBrief.md
 
-Use the cleaned output.
+  /examples/
+    test-*.md
 
-------------------------------------------------------------------------
+  /validation/
+    optional
 
-### Step 4 --- Share
+  /governance/
+    optional, only when kit-specific governance is required
+```
 
-Say: \> Create a VisualBrief from this:
+---
 
-Use either cleaned notes or DeepDive output.
+## Examples
 
-------------------------------------------------------------------------
+The `/examples/` directory is required for production kits.
 
-## Simple Example
+Examples may include runnable usage tests such as:
+- `test-01-*.md`
+- `test-02-*.md`
+- `test-03-*.md`
 
-**Input:** - fast meeting notes\
-- partial transcript\
-- slide photos
+These are practical examples, not formal validation artifacts.
 
-**Process:** 1. Clean → structured notes\
-2. Think → insight and direction\
-3. Share → visual summary
+---
 
-**Result:** - clear understanding\
-- actionable direction\
-- professional output
+## Validation
 
-------------------------------------------------------------------------
+The `/validation/` directory is optional.
 
-## File Overview
+Use `/validation/` only when formal validation, regression testing, deployment checks, or production readiness evidence is required.
 
--   `NoteCleanup.md` → Cleanup system\
--   `DeepDive.md` → Thinking system\
--   `VisualBrief.md` → Visual output system\
--   `README.md` → This guide
+---
 
-------------------------------------------------------------------------
+## Governance
+
+CTS inherits governance from the central AgentForge governance repository.
+
+Do not duplicate central governance documents inside this kit.
+
+Use a local `/governance/` directory only when the kit requires additional kit-specific governance.
+
+Example:
+- only a licensed physician may use a cardiac decision-support kit
+
+---
 
 ## Core Principle
 
 > Accept imperfect input. Produce reliable output.
 
-------------------------------------------------------------------------
+---
 
-## Design Philosophy
+## 2 AM Engineer Test
 
--   Small tools\
--   Clear purpose\
--   No overlap\
--   Composable workflow\
--   No hidden logic\
--   Traceable output
+If a tired engineer cannot understand how to set up and use this kit at 2 AM, the kit is not clear enough.
 
-------------------------------------------------------------------------
-
-## Tips
-
--   Don't pre-clean input\
--   Don't skip steps on messy data\
--   Use DeepDive only when needed\
--   Use VisualBrief for communication
-
-------------------------------------------------------------------------
-
-## License
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to: - Use this material for any purpose\
-- Share it freely\
-- Modify it as you see fit
-
-Under these conditions: - Keep this notice with any copies or
-substantial portions\
-- Give credit to Paul McDonald where reasonable\
-- Do not sell this material by itself for profit
-
-This material is provided "as is", without warranty of any kind.
+CTS should remain:
+- readable
+- operational
+- traceable
+- maintainable
+- simple to load
+- simple to explain
 
 ---
 
-## File Reference
+## Design Philosophy
 
-GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md
+- small tools
+- clear purpose
+- no unnecessary overlap
+- composable workflow
+- no hidden logic
+- traceable output
+- human-in-command operation
 
-Related Blog Article:  
+---
+
+## Related Files
+
+- QUICKSTART_CTS.md
+- SETUP_CTS.md
+- KIT_MANIFEST_CTS.md
+
+---
+
+## Related Blog Article
+
 https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html
 
 AgentForge Blog:  
 https://agentforgeframework.blogspot.com/
 
-Version:  
-v1.0 (Published)
-
-Last Updated:  
-2026-05-04
-
 ---
 
-# Development & Test Environment
+## Development & Test Environment
 
 - Platform: ChatGPT (Web)
-- Model: GPT-5.3
-- Date: 2026-05-04
+- Model: GPT-5.5 Thinking
+- Date: 2026-05-07
 
 Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-- This block is for record-keeping and future development. It may appear in outputs but is not user-facing.
+- CTS serves as the first canonical AgentForge Kit conversion.
+- This file reflects the Step 2 conversion to canonical kit structure.
 
 ---
 
-# License
+## License
 
 This project is released under a permissive, MIT-style license.
 
@@ -204,5 +223,3 @@ Under these conditions:
 - Do not sell this material by itself as a standalone product
 
 This material is provided "as is", without warranty of any kind.
-
----

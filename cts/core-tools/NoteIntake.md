@@ -69,7 +69,7 @@ NoteIntake.md
 
 - Platform: ChatGPT (Web)
 - Model: GPT-5.5 Thinking
-- Date: 2026-05-01
+- Date: 2026-05-07
 
 Notes:
 - Developed and tested as part of the AgentForge / CTS workflow.
@@ -101,7 +101,7 @@ This material is provided "as is", without warranty of any kind.
 ## File Reference
 
 GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core/NoteIntake.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteIntake.md
 
 Related Blog Article:  
 https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html

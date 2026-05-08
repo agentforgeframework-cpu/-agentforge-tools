@@ -1,62 +1,52 @@
 # CHANGELOG.md — CTS
 
-## v1.0.0 — Initial Release
-Date: 2026-05-02
-
-- Initial CTS system release
-- Added documentation and example
-
----
-
-## File Reference
-
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/CHANGELOG.md
 
-Related Blog Article:  
-https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html
-
-AgentForge Blog:  
-https://agentforgeframework.blogspot.com/
-
-Version:  
-v1.0 (Published)
-
-Last Updated:  
-2026-05-04
+Raw GitHub URL:  
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/cts/CHANGELOG.md
 
 ---
 
-# Development & Test Environment
+## v1.1.0 — Canonical Kit Conversion
+Date: 2026-05-07
+
+- Converted CTS into the first canonical AgentForge Kit reference implementation.
+- Added `SETUP_CTS.md` as the AI-assisted setup and orchestration file.
+- Added `QUICKSTART_CTS.md` as the human fast-start guide.
+- Added `KIT_MANIFEST_CTS.md` as an example kit manifest.
+- Renamed operational tool directory standard from `/core/` to `/core-tools/`.
+- Clarified that `/examples/` is required for production kits.
+- Clarified that runnable `test-*.md` examples may live in `/examples/`.
+- Replaced optional `/tests/` concept with optional `/validation/` for formal validation artifacts.
+- Clarified that `/governance/` is optional and only for additional kit-specific governance.
+- Added 2 AM Engineer Test language.
+- Held `Converge.md` out as the first future upgrade-process test.
+- Converted `LOAD_CTS.md` and `QUICKSTART.md` into compatibility bridge files.
+
+---
+
+## v1.0.0 — Initial Release
+Date: 2026-05-02
+
+- Initial CTS system release.
+- Added documentation and examples.
+
+---
+
+## Development & Test Environment
 
 - Platform: ChatGPT (Web)
-- Model: GPT-5.3
-- Date: 2026-05-04
+- Model: GPT-5.5 Thinking
+- Date: 2026-05-07
 
 Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-- This block is for record-keeping and future development. It may appear in outputs but is not user-facing.
+- Updated during the CTS canonical kit conversion.
 
 ---
 
-# License
+## License
 
 This project is released under a permissive, MIT-style license.
 
 Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself as a standalone product
-
-This material is provided "as is", without warranty of any kind.
-
----
