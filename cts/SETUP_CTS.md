@@ -30,6 +30,8 @@ Suggested prompt:
 >
 > If you cannot access or read that file, please let me know.
 
+**Claude users:** Paste the raw URL above as plain text directly into the chat message. Claude may not fetch URLs that arrive only through uploaded files or images. The URL should appear directly in the human chat message itself.
+
 ---
 
 ## Purpose

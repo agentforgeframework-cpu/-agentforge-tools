@@ -144,7 +144,9 @@ SETUP_CTS.md
 
 Suggested prompt:
 
-> Please read and follow SETUP_CTS.md to set up CTS for use together.
+> Please read and follow https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/cts/SETUP_CTS.md to set up CTS for use together.
+
+**Claude users:** Paste the raw URL above as plain text directly into the chat message. Claude may not fetch URLs that arrive only through uploaded files or images. The URL should appear directly in the human chat message itself.
 
 ---
 
