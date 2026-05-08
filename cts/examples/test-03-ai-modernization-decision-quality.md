@@ -1,5 +1,15 @@
 # test-03-ai-modernization-decision-quality.md — CTS Example
 
+
+Repository Path:
+-agentforge-tools/cts/examples/test-03-ai-modernization-decision-quality.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-03-ai-modernization-decision-quality.md
+
+---
+
+
 ## Purpose
 Validate CTS on a technical/business topic.
 

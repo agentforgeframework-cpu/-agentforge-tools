@@ -1,5 +1,15 @@
 # AgentForge Standards
 
+
+Repository Path:
+-agentforge-tools/standards/README.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/README.md
+
+---
+
+
 ## Purpose
 
 Submission standards for consistent and reliable AI output.
@@ -150,4 +160,3 @@ Under these conditions:
 - Do not sell this material by itself as a standalone product
 
 This material is provided "as is", without warranty of any kind.
-

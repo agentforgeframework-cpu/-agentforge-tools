@@ -1,5 +1,15 @@
 # CHANGELOG.md — AgentForge Standards
 
+
+Repository Path:
+-agentforge-tools/standards/CHANGELOG.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/CHANGELOG.md
+
+---
+
+
 This file tracks changes to the AgentForge Standards package.
 
 ---
@@ -136,4 +146,3 @@ Under these conditions:
 - Do not sell this material by itself as a standalone product
 
 This material is provided "as is", without warranty of any kind.
-

@@ -1,5 +1,15 @@
 # QUICKSTART.md — AgentForge Standards
 
+
+Repository Path:
+-agentforge-tools/standards/QUICKSTART.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/QUICKSTART.md
+
+---
+
+
 ## Purpose
 
 This file is for humans.
@@ -146,4 +156,3 @@ Under these conditions:
 - Do not sell this material by itself as a standalone product
 
 This material is provided "as is", without warranty of any kind.
-

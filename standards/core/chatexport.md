@@ -1,5 +1,15 @@
 # chatexport.md
 
+
+Repository Path:
+-agentforge-tools/standards/core/chatexport.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/chatexport.md
+
+---
+
+
 ## Name
 CHATEXPORT
 

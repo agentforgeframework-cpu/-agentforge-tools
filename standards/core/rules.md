@@ -1,5 +1,15 @@
 # rules.md
 
+
+Repository Path:
+-agentforge-tools/standards/core/rules.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/rules.md
+
+---
+
+
 ## Name
 RULES
 

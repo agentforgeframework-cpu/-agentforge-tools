@@ -1,5 +1,15 @@
 # test-01-basic-meal-planning.md — CTS Example
 
+
+Repository Path:
+-agentforge-tools/cts/examples/test-01-basic-meal-planning.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-01-basic-meal-planning.md
+
+---
+
+
 ## Purpose
 Validate that CTS can take simple messy input and produce clear, usable output.
 

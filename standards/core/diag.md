@@ -1,5 +1,15 @@
 # diag.md
 
+
+Repository Path:
+-agentforge-tools/standards/core/diag.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/diag.md
+
+---
+
+
 ## Name
 DIAGNOSTIC
 

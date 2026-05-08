@@ -1,5 +1,15 @@
 # LOAD_CTS.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/LOAD_CTS.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/LOAD_CTS.md
+
+---
+
+
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/LOAD_CTS.md
 

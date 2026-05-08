@@ -1,5 +1,15 @@
 # RELEASE_CHECKLIST.md — AgentForge Governance
 
+
+Repository Path:
+-agentforge-tools/governance/RELEASE_CHECKLIST.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/governance/RELEASE_CHECKLIST.md
+
+---
+
+
 ## Purpose
 Ensure releases are complete and consistent.
 

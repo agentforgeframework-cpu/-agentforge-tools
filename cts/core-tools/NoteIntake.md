@@ -1,4 +1,14 @@
 # NoteIntake.md — CTS Core Tool
+
+Repository Path:
+-agentforge-tools/cts/core-tools/NoteIntake.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteIntake.md
+
+---
+
+
 NoteIntake.md
 
 **Purpose:**

@@ -1,5 +1,15 @@
 # RELEASE_NOTES.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/RELEASE_NOTES.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/RELEASE_NOTES.md
+
+---
+
+
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/RELEASE_NOTES.md
 

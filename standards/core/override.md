@@ -1,5 +1,15 @@
 # override.md
 
+
+Repository Path:
+-agentforge-tools/standards/core/override.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/override.md
+
+---
+
+
 ## Name
 OVERRIDE
 

@@ -1,5 +1,15 @@
 # LOAD_STANDARDS.md — AgentForge Standards
 
+
+Repository Path:
+-agentforge-tools/standards/LOAD_STANDARDS.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/LOAD_STANDARDS.md
+
+---
+
+
 ## Purpose
 
 This file is for AI systems.

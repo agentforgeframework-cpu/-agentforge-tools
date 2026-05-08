@@ -1,5 +1,15 @@
 # README.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/README.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md
+
+---
+
+
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md
 

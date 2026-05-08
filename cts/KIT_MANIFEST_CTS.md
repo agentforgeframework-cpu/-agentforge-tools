@@ -1,5 +1,15 @@
 # KIT_MANIFEST_CTS.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/KIT_MANIFEST_CTS.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/KIT_MANIFEST_CTS.md
+
+---
+
+
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/KIT_MANIFEST_CTS.md
 

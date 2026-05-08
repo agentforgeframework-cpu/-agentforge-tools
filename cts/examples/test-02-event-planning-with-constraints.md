@@ -1,5 +1,15 @@
 # test-02-event-planning-with-constraints.md — CTS Example
 
+
+Repository Path:
+-agentforge-tools/cts/examples/test-02-event-planning-with-constraints.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-02-event-planning-with-constraints.md
+
+---
+
+
 ## Purpose
 Test CTS with moderate complexity and competing constraints.
 

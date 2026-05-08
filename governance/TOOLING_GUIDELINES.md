@@ -1,5 +1,15 @@
 # TOOLING_GUIDELINES.md — AgentForge Governance
 
+
+Repository Path:
+-agentforge-tools/governance/TOOLING_GUIDELINES.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/governance/TOOLING_GUIDELINES.md
+
+---
+
+
 ## Purpose
 Defines how AgentForge tools are designed, structured, and released.
 

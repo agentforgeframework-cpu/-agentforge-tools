@@ -1,5 +1,15 @@
 # SETUP_CTS.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/SETUP_CTS.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/SETUP_CTS.md
+
+---
+
+
 GitHub Location:
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/SETUP_CTS.md
 

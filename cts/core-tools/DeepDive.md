@@ -5,6 +5,16 @@ Version: v1.6
 Owner: Paul McDonald  
 Last Updated: 2026-04-20  
 
+
+Repository Path:
+-agentforge-tools/cts/core-tools/DeepDive.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/DeepDive.md
+
+---
+
+
 ---
 
 ## 🎯 Purpose

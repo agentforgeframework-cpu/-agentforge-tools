@@ -1,4 +1,14 @@
 # NoteCleanup.md — CTS Core Tool
+
+Repository Path:
+-agentforge-tools/cts/core-tools/NoteCleanup.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteCleanup.md
+
+---
+
+
 NoteCleanup.md
 
 **Purpose:**

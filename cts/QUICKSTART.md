@@ -1,5 +1,15 @@
 # QUICKSTART.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/QUICKSTART.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/QUICKSTART.md
+
+---
+
+
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/QUICKSTART.md
 

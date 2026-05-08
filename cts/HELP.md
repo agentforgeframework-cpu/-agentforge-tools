@@ -1,5 +1,15 @@
 # HELP.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/HELP.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/HELP.md
+
+---
+
+
 ## If Output is Messy
 Improve input slightly.
 
@@ -66,4 +76,3 @@ Under these conditions:
 This material is provided "as is", without warranty of any kind.
 
 ---
-

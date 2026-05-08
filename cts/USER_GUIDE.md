@@ -1,5 +1,15 @@
 # USER_GUIDE.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/USER_GUIDE.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/USER_GUIDE.md
+
+---
+
+
 ## Modes
 
 ### Clean Only

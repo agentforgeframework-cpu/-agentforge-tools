@@ -1,4 +1,14 @@
 # VisualBrief.md — CTS Core Tool
+
+Repository Path:
+-agentforge-tools/cts/core-tools/VisualBrief.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/VisualBrief.md
+
+---
+
+
 VisualBrief.md
 
 Status: PRODUCTION

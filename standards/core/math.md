@@ -1,5 +1,15 @@
 # math.md
 
+
+Repository Path:
+-agentforge-tools/standards/core/math.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/math.md
+
+---
+
+
 ## Name
 RUNMATH
 

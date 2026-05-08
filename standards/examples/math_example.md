@@ -1,5 +1,15 @@
 # MATH Example
 
+
+Repository Path:
+-agentforge-tools/standards/examples/math_example.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/math_example.md
+
+---
+
+
 ## Input
 math: Calculate 15% of 240 and round to nearest whole number.
 

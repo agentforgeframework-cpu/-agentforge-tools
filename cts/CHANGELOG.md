@@ -1,5 +1,15 @@
 # CHANGELOG.md — CTS
 
+
+Repository Path:
+-agentforge-tools/cts/CHANGELOG.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/CHANGELOG.md
+
+---
+
+
 GitHub Location:  
 https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/CHANGELOG.md
 

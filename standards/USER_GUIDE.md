@@ -1,5 +1,15 @@
 # USER_GUIDE.md — AgentForge Standards
 
+
+Repository Path:
+-agentforge-tools/standards/USER_GUIDE.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/USER_GUIDE.md
+
+---
+
+
 ## Purpose
 
 This guide explains how to use AgentForge Standards in normal work.
@@ -240,4 +250,3 @@ Under these conditions:
 - Do not sell this material by itself as a standalone product
 
 This material is provided "as is", without warranty of any kind.
-

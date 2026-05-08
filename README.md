@@ -1,4 +1,14 @@
 # -agentforge-tools
+
+Repository Path:
+-agentforge-tools/README.md
+
+GitHub URL:
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/README.md
+
+---
+
+
 AgentForge tools and workflows for turning real-world input into structured, actionable output.
 
 ## Available Tools
