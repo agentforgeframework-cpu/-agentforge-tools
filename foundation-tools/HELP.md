@@ -1,27 +1,27 @@
-# HELP.md — AgentForge Standards
+# HELP.md — AgentForge Foundation Tools
 
 
 Repository Path:
--agentforge-tools/standards/HELP.md
+-agentforge-tools/foundation tools/HELP.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/HELP.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/HELP.md
 
 ---
 
 
 ## What This Is
 
-A lightweight set of submission standards to improve AI output consistency.
+A lightweight set of submission foundation tools to improve AI output consistency.
 
-AgentForge Standards help users structure requests so AI systems can produce clearer, more predictable, and more usable output.
+AgentForge Foundation Tools help users structure requests so AI systems can produce clearer, more predictable, and more usable output.
 
 You cannot control the model.  
 You can control the input.
 
 ---
 
-## Core Standards
+## Core Foundation Tools
 
 ### math.md
 
@@ -92,17 +92,17 @@ CHATEXPORT
 
 ## Human Start
 
-Use QUICKSTART.md:
+Use QUICKSTART_FOUNDATION-TOOLS.md:
 
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/QUICKSTART.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/QUICKSTART_FOUNDATION-TOOLS.md
 
 ---
 
 ## AI Loading
 
-Use LOAD_STANDARDS.md:
+Use SETUP_FOUNDATION-TOOLS.md:
 
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/LOAD_STANDARDS.md
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation tools/SETUP_FOUNDATION-TOOLS.md
 
 ---
 
@@ -115,10 +115,10 @@ https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main
 ## File Reference
 
 GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/HELP.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/HELP.md
 
 Raw Loading Location:  
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/HELP.md
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation tools/HELP.md
 
 Related Blog Article:  
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -141,11 +141,11 @@ Last Updated:
 - Date: 2026-05-04
 
 Notes:
-- Revised as part of AgentForge Standards packaging and cross-model loading tests.
-- Clarifies that AgentForge Standards are submission standards, not model behavior control.
+- Revised as part of AgentForge Foundation Tools packaging and cross-model loading tests.
+- Clarifies that AgentForge Foundation Tools are submission foundation tools, not model behavior control.
 
 - Updated to include rules.md and chatexport.md.
-- Updated to reflect submission standards positioning.
+- Updated to reflect submission foundation tools positioning.
 ---
 
 # License

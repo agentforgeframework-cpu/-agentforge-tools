@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Foundation Tools provide reusable operational support standards and utilities used throughout AgentForge workflows and kits.
+Foundation Tools provide reusable operational support foundation tools and utilities used throughout AgentForge workflows and kits.
 
 This QUICKSTART is intended for human users.
 

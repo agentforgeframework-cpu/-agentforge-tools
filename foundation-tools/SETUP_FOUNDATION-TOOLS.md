@@ -39,7 +39,7 @@ If any file cannot be loaded, stop and report the failed file.
 
 ## Required Foundation Tool Files
 
-### 1. README
+### 1. README.md
 
 https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation-tools/README.md
 
@@ -81,15 +81,7 @@ Load each available file from:
 
 https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation-tools/core/
 
-Expected core files may include:
-
-- math.md
-- diag.md
-- override.md
-- rules.md
-- chatexport.md
-
-Load these exact raw URLs when present:
+Expected core files:
 
 ### math.md
 
@@ -129,7 +121,7 @@ https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main
 
 ## Optional Folders
 
-The following folders may contain useful operational references:
+The following folders may contain useful operational references.
 
 ### examples
 
@@ -203,7 +195,7 @@ Then:
 2. Reload this SETUP file if needed.
 3. Reload the missing or degraded files.
 4. Restart the session if behavior does not recover.
-5. Do not assume a confirmed load means standards remain active for the full session.
+5. Do not assume a confirmed load means instructions remain active for the full session.
 
 When in doubt, reload. It is faster than debugging a degraded session.
 

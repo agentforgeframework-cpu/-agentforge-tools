@@ -1,23 +1,23 @@
-# AgentForge Standards
+# AgentForge Foundation Tools
 
 
 Repository Path:
--agentforge-tools/standards/README.md
+-agentforge-tools/foundation tools/README.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/README.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/README.md
 
 ---
 
 
 ## Purpose
 
-Submission standards for consistent and reliable AI output.
+Submission foundation tools for consistent and reliable AI output.
 
 You cannot control the model.  
 You can control the input.
 
-These standards help users submit clearer, more structured requests so AI systems can produce more predictable, usable results.
+These foundation tools help users submit clearer, more structured requests so AI systems can produce more predictable, usable results.
 
 ---
 
@@ -29,7 +29,7 @@ These standards help users submit clearer, more structured requests so AI system
 
 ## What This Is
 
-AgentForge Standards is a lightweight set of reusable submission standards.
+AgentForge Foundation Tools is a lightweight set of reusable submission foundation tools.
 
 It is not a software platform.  
 It is not a replacement for model safety rules.  
@@ -42,12 +42,12 @@ It provides practical structure for how users ask, test, guide, and preserve AI 
 ## Package Structure
 
 ```text
-standards/
+foundation tools/
   README.md
-  QUICKSTART.md
+  QUICKSTART_FOUNDATION-TOOLS.md
   HELP.md
   USER_GUIDE.md
-  LOAD_STANDARDS.md
+  SETUP_FOUNDATION-TOOLS.md
   CHANGELOG.md
 
   core/
@@ -69,7 +69,7 @@ standards/
 
 ---
 
-## Core Standards
+## Core Foundation Tools
 
 | File | Name | Purpose |
 |---|---|---|
@@ -85,11 +85,11 @@ standards/
 
 For human use:
 
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/QUICKSTART.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/QUICKSTART_FOUNDATION-TOOLS.md
 
 For AI loading:
 
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/LOAD_STANDARDS.md
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation tools/SETUP_FOUNDATION-TOOLS.md
 
 ---
 
@@ -97,23 +97,23 @@ https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main
 
 Examples are optional and are provided for learning, validation, and onboarding.
 
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/
 
 ---
 
 ## One-Line Summary
 
-> AgentForge Standards helps users ask better so AI can answer more reliably.
+> AgentForge Foundation Tools helps users ask better so AI can answer more reliably.
 
 ---
 
 ## File Reference
 
 GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/README.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/README.md
 
 Raw Loading Location:  
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/README.md
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation tools/README.md
 
 Related Blog Article:  
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -136,10 +136,10 @@ Last Updated:
 - Date: 2026-05-04
 
 Notes:
-- Revised as part of AgentForge Standards packaging and cross-model loading tests.
-- Clarifies that AgentForge Standards are submission standards, not model behavior control.
+- Revised as part of AgentForge Foundation Tools packaging and cross-model loading tests.
+- Clarifies that AgentForge Foundation Tools are submission foundation tools, not model behavior control.
 
-- Updated to clarify that the package defines submission standards, not AI behavior control.
+- Updated to clarify that the package defines submission foundation tools, not AI behavior control.
 - Updated to reflect core/examples/media folder layout.
 ---
 

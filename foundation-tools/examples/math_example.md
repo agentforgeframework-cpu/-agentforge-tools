@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/examples/math_example.md
+-agentforge-tools/foundation tools/examples/math_example.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/math_example.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/math_example.md
 
 ---
 

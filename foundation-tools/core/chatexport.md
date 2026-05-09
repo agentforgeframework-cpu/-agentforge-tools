@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/core/chatexport.md
+-agentforge-tools/foundation tools/core/chatexport.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/chatexport.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/chatexport.md
 
 ---
 
@@ -38,7 +38,7 @@ CHATEXPORT is not a full transcript capture system. It produces a condensed, str
 Export what is available. Report what is not.
 
 ## Positioning
-AgentForge Standards are submission standards for consistent and reliable AI output.
+AgentForge Foundation Tools are submission foundation tools for consistent and reliable AI output.
 
 CHATEXPORT standardizes how users request a reusable conversation export.
 
@@ -165,7 +165,7 @@ chatexport.md is successful when a usable export is produced, the output is port
 
 ## File Reference
 GitHub Location:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/chatexport.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/chatexport.md
 
 Related Blog Article:
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -174,7 +174,7 @@ https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
 - Platform: ChatGPT Web
 - Model: GPT-5.5 Thinking
 - Date: 2026-05-04
-- Notes: Rebuilt as part of the AgentForge Standards package. FULL and VERBATIM were removed from production after testing showed unreliable fidelity.
+- Notes: Rebuilt as part of the AgentForge Foundation Tools package. FULL and VERBATIM were removed from production after testing showed unreliable fidelity.
 
 ## License
 Paul McDonald Open Use License (MIT-style)

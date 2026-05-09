@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/core/override.md
+-agentforge-tools/foundation tools/core/override.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/override.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/override.md
 
 ---
 
@@ -61,7 +61,7 @@ OVERRIDE does not:
 - create permanent rule changes
 - apply silently
 - automatically apply across unrelated projects
-- change deterministic command standards unless explicitly allowed
+- change deterministic command foundation tools unless explicitly allowed
 
 ## Required Confirmation
 Activation:
@@ -106,7 +106,7 @@ override.md is successful when users can temporarily adjust eligible visible rul
 
 ## File Reference
 GitHub Location:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/override.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/override.md
 
 Related Blog Article:
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -115,7 +115,7 @@ https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
 - Platform: ChatGPT Web
 - Model: GPT-5.5 Thinking
 - Date: 2026-05-04
-- Notes: Rebuilt as part of the AgentForge Standards package.
+- Notes: Rebuilt as part of the AgentForge Foundation Tools package.
 
 ## License
 Paul McDonald Open Use License (MIT-style)

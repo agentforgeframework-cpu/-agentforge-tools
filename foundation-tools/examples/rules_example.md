@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/examples/rules_example.md
+-agentforge-tools/foundation tools/examples/rules_example.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/rules_example.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/rules_example.md
 
 ---
 

@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/examples/diag_example.md
+-agentforge-tools/foundation tools/examples/diag_example.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/diag_example.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/diag_example.md
 
 ---
 

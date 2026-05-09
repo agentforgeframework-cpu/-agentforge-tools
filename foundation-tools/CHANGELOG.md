@@ -1,16 +1,16 @@
-# CHANGELOG.md — AgentForge Standards
+# CHANGELOG.md — AgentForge Foundation Tools
 
 
 Repository Path:
--agentforge-tools/standards/CHANGELOG.md
+-agentforge-tools/foundation tools/CHANGELOG.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/CHANGELOG.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/CHANGELOG.md
 
 ---
 
 
-This file tracks changes to the AgentForge Standards package.
+This file tracks changes to the AgentForge Foundation Tools package.
 
 ---
 
@@ -30,21 +30,21 @@ Date: 2026-05-04
 
 ### Added
 
-- Added `QUICKSTART.md` as the human-facing entry point.
+- Added `QUICKSTART_FOUNDATION-TOOLS.md` as the human-facing entry point.
 - Added `rules.md` as a full core standard.
 - Added `chatexport.md` as a full core standard.
-- Added optional examples structure under `/standards/examples/`.
-- Added raw GitHub loading links in `LOAD_STANDARDS.md`.
+- Added optional examples structure under `/foundation tools/examples/`.
+- Added raw GitHub loading links in `SETUP_FOUNDATION-TOOLS.md`.
 - Added human GitHub page links for readability and navigation.
 
 ### Changed
 
-- Reframed package as submission standards for consistent and reliable AI output.
+- Reframed package as submission foundation tools for consistent and reliable AI output.
 - Clarified distinction:
-  - `LOAD_STANDARDS.md` is for AI systems.
-  - `QUICKSTART.md` is for humans.
-- Moved core standards under `/standards/core/`.
-- Updated loader to use `/standards/core/*.md`.
+  - `SETUP_FOUNDATION-TOOLS.md` is for AI systems.
+  - `QUICKSTART_FOUNDATION-TOOLS.md` is for humans.
+- Moved core foundation tools under `/foundation tools/core/`.
+- Updated loader to use `/foundation tools/core/*.md`.
 - Updated loader failure protocol for stricter cross-model behavior.
 
 ### Design Decisions
@@ -57,19 +57,19 @@ Date: 2026-05-04
 
 ---
 
-## v1.0 — Initial Standards Package
+## v1.0 — Initial Foundation Tools Package
 
 Date: 2026-05-03
 
 ### Added
 
-- Created `/standards/` package structure.
+- Created `/foundation tools/` package structure.
 - Added `math.md` as RUNMATH command standard.
 - Added `diag.md` as DIAGNOSTIC mode standard.
 - Added `override.md` as OVERRIDE mode standard.
 - Added `README.md` for package orientation.
 - Added `HELP.md` for quick human help.
-- Added `LOAD_STANDARDS.md` for loading and verification.
+- Added `SETUP_FOUNDATION-TOOLS.md` for loading and verification.
 - Added `USER_GUIDE.md` for practical use.
 - Added `CHANGELOG.md` for version history.
 
@@ -78,7 +78,7 @@ Date: 2026-05-03
 - Keep deterministic commands separate from behavioral modes.
 - Require diagnostic transparency without exposing hidden chain-of-thought.
 - Require override mode to apply only to project-defined visible rules.
-- Keep standards lightweight and composable.
+- Keep foundation tools lightweight and composable.
 
 ---
 
@@ -89,17 +89,17 @@ Date: 2026-05-03
 - OVERRIDE depends on visible rule IDs.
 - RULES reports visible rules only and does not expose hidden system rules.
 - CHATEXPORT produces condensed exports only in production v1.2.
-- These standards do not guarantee identical support across all AI platforms.
+- These foundation tools do not guarantee identical support across all AI platforms.
 
 ---
 
 ## File Reference
 
 GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/CHANGELOG.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/CHANGELOG.md
 
 Raw Loading Location:  
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/CHANGELOG.md
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation tools/CHANGELOG.md
 
 Related Blog Article:  
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -122,8 +122,8 @@ Last Updated:
 - Date: 2026-05-04
 
 Notes:
-- Revised as part of AgentForge Standards packaging and cross-model loading tests.
-- Clarifies that AgentForge Standards are submission standards, not model behavior control.
+- Revised as part of AgentForge Foundation Tools packaging and cross-model loading tests.
+- Clarifies that AgentForge Foundation Tools are submission foundation tools, not model behavior control.
 
 - Updated to record raw loader and human QUICKSTART split.
 - Updated after cross-model testing with Claude showed loader/version drift risks.

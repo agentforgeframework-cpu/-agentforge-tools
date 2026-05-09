@@ -1,29 +1,29 @@
-# USER_GUIDE.md — AgentForge Standards
+# USER_GUIDE.md — AgentForge Foundation Tools
 
 
 Repository Path:
--agentforge-tools/standards/USER_GUIDE.md
+-agentforge-tools/foundation tools/USER_GUIDE.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/USER_GUIDE.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/USER_GUIDE.md
 
 ---
 
 
 ## Purpose
 
-This guide explains how to use AgentForge Standards in normal work.
+This guide explains how to use AgentForge Foundation Tools in normal work.
 
-AgentForge Standards are submission standards for consistent and reliable AI output.
+AgentForge Foundation Tools are submission foundation tools for consistent and reliable AI output.
 
 You cannot control the model.  
 You can control the input.
 
 ---
 
-## What These Standards Are For
+## What These Foundation Tools Are For
 
-Use these standards when you need:
+Use these foundation tools when you need:
 
 - more consistent AI outputs
 - clearer calculation requests
@@ -37,12 +37,12 @@ Use these standards when you need:
 ## Folder Layout
 
 ```text
-standards/
+foundation tools/
   README.md
-  QUICKSTART.md
+  QUICKSTART_FOUNDATION-TOOLS.md
   HELP.md
   USER_GUIDE.md
-  LOAD_STANDARDS.md
+  SETUP_FOUNDATION-TOOLS.md
   CHANGELOG.md
 
   core/
@@ -144,26 +144,26 @@ CHATEXPORT creates a best-effort condensed export and reports limitations.
 
 Examples are optional and are useful for onboarding and validation:
 
-- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/math_example.md
-- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/diag_example.md
-- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/override_example.md
-- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/rules_example.md
-- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/examples/chatexport_example.md
+- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/math_example.md
+- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/diag_example.md
+- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/override_example.md
+- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/rules_example.md
+- https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/examples/chatexport_example.md
 
 ---
 
 ## Recommended First Test
 
-After loading the standards package, run:
+After loading the foundation tools package, run:
 
 ```text
-Run standards self-check
+Run foundation tools self-check
 ```
 
 Expected result:
 
 - required files loaded
-- standards understood
+- foundation tools understood
 - optional examples listed if loaded
 - system waits for next command
 
@@ -171,19 +171,19 @@ Expected result:
 
 ## Common Problems
 
-### Problem: The AI says it loaded standards but did not read the files.
+### Problem: The AI says it loaded foundation tools but did not read the files.
 
-Use LOAD_STANDARDS.md and require the success confirmation.
+Use SETUP_FOUNDATION-TOOLS.md and require the success confirmation.
 
 ### Problem: The AI cannot access a GitHub link.
 
 Upload the files directly, paste the content, or switch to a model/tool that can read external links.
 
-### Problem: The AI treats these standards as model control.
+### Problem: The AI treats these foundation tools as model control.
 
 Correct framing:
 
-> These are submission standards, not model behavior controls.
+> These are submission foundation tools, not model behavior controls.
 
 ### Problem: CHATEXPORT prints a large export into the chat UI.
 
@@ -200,10 +200,10 @@ Expected behavior is downloadable file output when file generation is available.
 ## File Reference
 
 GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/USER_GUIDE.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/USER_GUIDE.md
 
 Raw Loading Location:  
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/standards/USER_GUIDE.md
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/foundation tools/USER_GUIDE.md
 
 Related Blog Article:  
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -226,8 +226,8 @@ Last Updated:
 - Date: 2026-05-04
 
 Notes:
-- Revised as part of AgentForge Standards packaging and cross-model loading tests.
-- Clarifies that AgentForge Standards are submission standards, not model behavior control.
+- Revised as part of AgentForge Foundation Tools packaging and cross-model loading tests.
+- Clarifies that AgentForge Foundation Tools are submission foundation tools, not model behavior control.
 
 - Updated to include rules.md and chatexport.md.
 - Updated to match core/examples folder layout.

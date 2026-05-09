@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/core/math.md
+-agentforge-tools/foundation tools/core/math.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/math.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/math.md
 
 ---
 
@@ -115,7 +115,7 @@ math.md is successful when RUNMATH produces deterministic, engine-backed arithme
 
 ## File Reference
 GitHub Location:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/math.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/math.md
 
 Related Blog Article:
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -124,7 +124,7 @@ https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
 - Platform: ChatGPT Web
 - Model: GPT-5.5 Thinking
 - Date: 2026-05-04
-- Notes: Rebuilt as part of the AgentForge Standards package.
+- Notes: Rebuilt as part of the AgentForge Foundation Tools package.
 
 ## License
 Paul McDonald Open Use License (MIT-style)

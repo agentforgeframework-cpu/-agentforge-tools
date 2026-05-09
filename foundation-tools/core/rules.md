@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/core/rules.md
+-agentforge-tools/foundation tools/core/rules.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/rules.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/rules.md
 
 ---
 
@@ -39,7 +39,7 @@ rules.md does not store the rules of record.
 rules.md defines how visible rules are handled. It does not store all rules.
 
 ## Positioning
-AgentForge Standards are submission standards for consistent and reliable AI output.
+AgentForge Foundation Tools are submission foundation tools for consistent and reliable AI output.
 
 You cannot control the model. You can control the input.
 
@@ -67,7 +67,7 @@ Visible rules may originate from:
 - explicit user rules
 - project documentation
 - workflow tools
-- AgentForge standards
+- AgentForge Foundation Tools
 - persistent user or project memory, if available
 
 ## Rule Categories
@@ -78,7 +78,7 @@ Explicit user instructions that affect response behavior.
 Rules defined by a project, workflow, or package.
 
 ### Package Rules
-Rules defined by reusable standards.
+Rules defined by reusable foundation tools.
 
 ## Preferences vs Rules
 Preferences may influence output but are not automatically treated as rules.
@@ -152,7 +152,7 @@ rules.md is successful when users can see visible rules affecting a response, re
 
 ## File Reference
 GitHub Location:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/rules.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/rules.md
 
 Related Blog Article:
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -161,7 +161,7 @@ https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
 - Platform: ChatGPT Web
 - Model: GPT-5.5 Thinking
 - Date: 2026-05-04
-- Notes: Rebuilt as part of the AgentForge Standards package after testing showed thin summaries were not sufficient.
+- Notes: Rebuilt as part of the AgentForge Foundation Tools package after testing showed thin summaries were not sufficient.
 
 ## License
 Paul McDonald Open Use License (MIT-style)

@@ -2,10 +2,10 @@
 
 
 Repository Path:
--agentforge-tools/standards/core/diag.md
+-agentforge-tools/foundation tools/core/diag.md
 
 GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/diag.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/diag.md
 
 ---
 
@@ -113,7 +113,7 @@ diag.md is successful when users can see how a response was handled at a high le
 
 ## File Reference
 GitHub Location:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/standards/core/diag.md
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation tools/core/diag.md
 
 Related Blog Article:
 https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
@@ -122,7 +122,7 @@ https://agentforgeframework.blogspot.com/2026/05/chatbot-standard-tools.html
 - Platform: ChatGPT Web
 - Model: GPT-5.5 Thinking
 - Date: 2026-05-04
-- Notes: Rebuilt as part of the AgentForge Standards package.
+- Notes: Rebuilt as part of the AgentForge Foundation Tools package.
 
 ## License
 Paul McDonald Open Use License (MIT-style)
