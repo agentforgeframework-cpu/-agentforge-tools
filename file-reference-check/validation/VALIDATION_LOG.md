@@ -150,3 +150,12 @@ preserve the successful scan/report path as the v0.1.1 stabilization target
 
 Assessment:
 This is the first confirmed operational success for file-reference-check. The tool is not production-hardened, but the core scan/report workflow is now proven.
+
+
+# Validation Update — Summary:v0.1.1 stabilization milestone:
+
+Date:
+2026-05-10
+
+Status:
+first successful end-to-end operational scan achieved with Markdown and JSON report generation.

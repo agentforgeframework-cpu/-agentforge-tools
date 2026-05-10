@@ -1,6 +1,6 @@
 ﻿# file-reference-check Report
 
-Generated: 2026-05-10T15:55:50
+Generated: 2026-05-10T16:27:19
 
 ## Repository Context
 
@@ -12,12 +12,12 @@ Generated: 2026-05-10T15:55:50
 
 ## Summary
 
-- Files scanned: 84
+- Files scanned: 93
 - Passed: 2
-- Missing: 54
+- Missing: 63
 - Incomplete or mismatched: 28
-- Patchable missing blocks: 51
-- Skipped files: 293
+- Patchable missing blocks: 60
+- Skipped files: 307
 
 ## Findings
 
@@ -71,7 +71,11 @@ Generated: 2026-05-10T15:55:50
 | MISSING | `cts/USER_GUIDE.md` | No File Reference Information block found. |
 | MISSING | `examples/example-correction-script.ps1` | No File Reference Information block found. |
 | MISSING | `file-reference-check/examples/example-correction-script.ps1` | No File Reference Information block found. |
+| MISSING | `file-reference-check/lessons-learned/LESSONS__v0.1.md` | No File Reference Information block found. |
 | MISSING | `file-reference-check/LOAD_FILE-REFERENCE-CHECK.md` | No File Reference Information block found. |
+| MISSING | `file-reference-check/powershell/preflight-check-stack.md` | No File Reference Information block found. |
+| MISSING | `file-reference-check/powershell/README.md` | No File Reference Information block found. |
+| MISSING | `file-reference-check/powershell/scan-stack.md` | No File Reference Information block found. |
 | MISSING | `file-reference-check/QUICKSTART.md` | No File Reference Information block found. |
 | MISSING | `file-reference-check/scripts/apply-file-reference-fixes.ps1` | No File Reference Information block found. |
 | MISSING | `file-reference-check/validation/TEST_CASES.md` | No File Reference Information block found. |
@@ -97,6 +101,11 @@ Generated: 2026-05-10T15:55:50
 | MISSING | `foundation-tools/USER_GUIDE.md` | No File Reference Information block found. |
 | MISSING | `governance/RELEASE_CHECKLIST.md` | No File Reference Information block found. |
 | MISSING | `governance/TOOLING_GUIDELINES.md` | No File Reference Information block found. |
+| MISSING | `kit-builder/CHANGELOG.md` | No File Reference Information block found. |
+| MISSING | `kit-builder/lessons-learned/file-reference-check-v0.1.md` | No File Reference Information block found. |
+| MISSING | `kit-builder/QUICKSTART.md` | No File Reference Information block found. |
+| MISSING | `kit-builder/README.md` | No File Reference Information block found. |
+| MISSING | `kit-builder/RELEASE_NOTES.md` | No File Reference Information block found. |
 | MISSING | `lessons-learned/PORTABILITY_FINDINGS.md` | No File Reference Information block found. |
 | MISSING | `lessons-learned/README.md` | No File Reference Information block found. |
 | MISSING | `lessons-learned/WAVE1_Conversion_Findings.md` | No File Reference Information block found. |

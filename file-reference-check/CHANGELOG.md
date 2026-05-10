@@ -17,6 +17,13 @@ Added:
 
 ---
 
+v0.1.1
+- first successful end-to-end scan/report execution
+- PowerShell compatibility stabilization
+- GitHub Desktop Git detection workflow validated
+
+---
+
 # Development & Test Environment
 
 - Platform: ChatGPT Web

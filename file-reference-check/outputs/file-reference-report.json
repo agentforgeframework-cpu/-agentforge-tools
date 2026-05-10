@@ -494,6 +494,46 @@
                      },
                      {
                          "Status":  "MISSING",
+                         "File":  "file-reference-check/lessons-learned/LESSONS__v0.1.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/lessons-learned/LESSONS__v0.1.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/lessons-learned/LESSONS__v0.1.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/powershell/preflight-check-stack.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/powershell/preflight-check-stack.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/powershell/preflight-check-stack.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/powershell/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/powershell/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/powershell/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/powershell/scan-stack.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/powershell/scan-stack.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/powershell/scan-stack.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
                          "File":  "file-reference-check/scripts/apply-file-reference-fixes.ps1",
                          "Extension":  ".ps1",
                          "Notes":  "No File Reference Information block found.",
@@ -764,6 +804,56 @@
                      },
                      {
                          "Status":  "MISSING",
+                         "File":  "kit-builder/CHANGELOG.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/CHANGELOG.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/CHANGELOG.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "kit-builder/QUICKSTART.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/QUICKSTART.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/QUICKSTART.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "kit-builder/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "kit-builder/RELEASE_NOTES.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/RELEASE_NOTES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/RELEASE_NOTES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "kit-builder/lessons-learned/file-reference-check-v0.1.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/lessons-learned/file-reference-check-v0.1.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/lessons-learned/file-reference-check-v0.1.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
                          "File":  "lessons-learned/PORTABILITY_FINDINGS.md",
                          "Extension":  ".md",
                          "Notes":  "No File Reference Information block found.",
@@ -1007,6 +1097,10 @@
                         "Reason":  "Excluded directory"
                     },
                     {
+                        "File":  ".git/objects/08/3843353c66b0f45809e3ddfabc7b569c782563",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
                         "File":  ".git/objects/08/51871abaea1fcba4e47ef027f98a1e71106de0",
                         "Reason":  "Excluded directory"
                     },
@@ -1048,6 +1142,10 @@
                     },
                     {
                         "File":  ".git/objects/14/fb8464b63b5205e4cbd51ad44c7b993ac5ec97",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/14/fde308d0b20f1e6852ffb2cdf3e2927c35cae3",
                         "Reason":  "Excluded directory"
                     },
                     {
@@ -1108,6 +1206,10 @@
                     },
                     {
                         "File":  ".git/objects/24/46b8fab6a1284d3a1599232e4249fc48a1a9a3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/27/451cfb88b51535a5c9d70ad4cf38c6cc2276b2",
                         "Reason":  "Excluded directory"
                     },
                     {
@@ -1180,6 +1282,10 @@
                     },
                     {
                         "File":  ".git/objects/3a/dcd8a9848ed02bab3421be03d2e5d8c02726ab",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/3c/6e24c853fbcf6afc61a526d6fb98c6f1d9397b",
                         "Reason":  "Excluded directory"
                     },
                     {
@@ -1267,6 +1373,10 @@
                         "Reason":  "Excluded directory"
                     },
                     {
+                        "File":  ".git/objects/59/45f765e63cc7649a8bbc8d847bc20545969809",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
                         "File":  ".git/objects/59/7a852753c249394c635463c0b6ddc51de5e294",
                         "Reason":  "Excluded directory"
                     },
@@ -1279,6 +1389,14 @@
                         "Reason":  "Excluded directory"
                     },
                     {
+                        "File":  ".git/objects/5d/094d11a7893ef000ea6d505f7cc117a58529f7",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/5e/5141d2ebedf841ffa94fa6f0b654843609d73e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
                         "File":  ".git/objects/5f/57cc38d385374bcd82d09158fa1c822ab0c95c",
                         "Reason":  "Excluded directory"
                     },
@@ -1288,6 +1406,14 @@
                     },
                     {
                         "File":  ".git/objects/60/c9667f6195fefd4296d7860824b0c8c7c8b6fe",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/60/ebc371c322820a0845f570ca27337a971f9bfd",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/61/b20e9b16ef7c2784fca534132dbefb1f9260bc",
                         "Reason":  "Excluded directory"
                     },
                     {
@@ -1359,6 +1485,10 @@
                         "Reason":  "Excluded directory"
                     },
                     {
+                        "File":  ".git/objects/70/39986fc874bc18b83ba6d2a8889bf0b8d73a06",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
                         "File":  ".git/objects/70/5d6651770a3bdd53c6ac6088e0aabf3851248f",
                         "Reason":  "Excluded directory"
                     },
@@ -1380,6 +1510,10 @@
                     },
                     {
                         "File":  ".git/objects/78/13e67878c9dd3e6e2411d0f8a62fb04073efc2",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/78/9b9632f3677129b56641316a835d0d51181dad",
                         "Reason":  "Excluded directory"
                     },
                     {
@@ -1643,6 +1777,10 @@
                         "Reason":  "Excluded directory"
                     },
                     {
+                        "File":  ".git/objects/c4/b9a44ead1fb1aba705577c81eef5fd079f94d2",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
                         "File":  ".git/objects/c6/44199c4004e4747f016b736aa8ddc1837482c0",
                         "Reason":  "Excluded directory"
                     },
@@ -1688,6 +1826,10 @@
                     },
                     {
                         "File":  ".git/objects/cf/540679eb54105c40f158e2a212a2db6c317768",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d0/a543ade49e7e3f09e226c90e198e24547f4fba",
                         "Reason":  "Excluded directory"
                     },
                     {
@@ -1844,6 +1986,10 @@
                     },
                     {
                         "File":  ".git/objects/f2/51891510bcb6fd558a9c11b7678d558cea2727",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f3/a56c00d5ddc60c5068e055fb2bc189cd74f4fd",
                         "Reason":  "Excluded directory"
                     },
                     {
@@ -2027,5 +2173,5 @@
                         "Reason":  "Excluded directory"
                     }
                 ],
-    "generated":  "2026-05-10T15:55:50"
+    "generated":  "2026-05-10T16:27:19"
 }
