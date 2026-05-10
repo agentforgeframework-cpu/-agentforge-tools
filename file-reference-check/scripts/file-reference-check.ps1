@@ -94,11 +94,21 @@ function Get-RepositoryContext([string]$RepoRoot) {
 }
 
 function Get-RelativeGitPath([string]$RepoRoot, [string]$FileFullName) {
-    return ([System.IO.Path]::GetRelativePath($RepoRoot, $FileFullName) -replace '\\','/')
+    $repoRootResolved = (Resolve-Path $RepoRoot).Path.TrimEnd('\')
+    $fileResolved = (Resolve-Path $FileFullName).Path
+
+    if ($fileResolved.StartsWith($repoRootResolved)) {
+        return ($fileResolved.Substring($repoRootResolved.Length).TrimStart('\') -replace '\\','/')
+    }
+
+    return ($FileFullName -replace '\\','/')
 }
 
 function Test-ExcludedPath([string]$FileFullName, [string]$RepoRoot, [string[]]$ExcludedDirectoryNames) {
-    $relative = [System.IO.Path]::GetRelativePath($RepoRoot, $FileFullName)
+    $repoRootResolved = (Resolve-Path $RepoRoot).Path.TrimEnd('\')
+    $fileResolved = (Resolve-Path $FileFullName).Path
+    $relative = $fileResolved.Substring($repoRootResolved.Length).TrimStart('\')
+    $relative = $relative -replace '\\','/'
     $parts = $relative -split '[\\/]'
     foreach ($part in $parts) {
         if ($ExcludedDirectoryNames -contains $part) { return $true }
@@ -193,7 +203,10 @@ function Write-MarkdownReport($Findings, $Skipped, $Context, [string]$ReportPath
     $missing = @($Findings | Where-Object Status -eq 'MISSING').Count
     $bad = @($Findings | Where-Object Status -eq 'INCOMPLETE_OR_MISMATCH').Count
     $patchable = @($Findings | Where-Object Patchable -eq $true).Count
-
+    $skippedCount = 0
+    if ($null -ne $Skipped) {
+       $skippedCount = $Skipped.Count
+    }
     $lines = New-Object System.Collections.Generic.List[string]
     $lines.Add('# file-reference-check Report')
     $lines.Add('')
@@ -214,15 +227,21 @@ function Write-MarkdownReport($Findings, $Skipped, $Context, [string]$ReportPath
     $lines.Add("- Missing: $missing")
     $lines.Add("- Incomplete or mismatched: $bad")
     $lines.Add("- Patchable missing blocks: $patchable")
-    $lines.Add("- Skipped files: $(@($Skipped).Count)")
+    $skippedCount = 0
+    if ($null -ne $Skipped) {
+        $skippedCount = $Skipped.Count
+    }
+    $lines.Add("- Skipped files: $skippedCount")
     $lines.Add('')
     $lines.Add('## Findings')
     $lines.Add('')
     $lines.Add('| Status | File | Notes |')
     $lines.Add('|---|---|---|')
     foreach ($f in ($Findings | Sort-Object Status, File)) {
-        $notes = ($f.Notes -replace '\|','/')
-        $lines.Add("| $($f.Status) | `$($f.File)` | $notes |")
+        $status = [string]$f.Status
+        $fileText = ([string]$f.File) -replace '\|','/'
+        $notes = ([string]$f.Notes) -replace '\|','/'
+        $lines.Add("| $status | ``$fileText`` | $notes |")
     }
     $lines.Add('')
     $lines.Add('## Human-in-Command Note')

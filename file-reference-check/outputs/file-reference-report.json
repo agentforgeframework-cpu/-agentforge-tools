@@ -1,0 +1,2031 @@
+﻿{
+    "context":  {
+                    "Platform":  "GitHub",
+                    "Owner":  "agentforgeframework-cpu",
+                    "Repository":  "-agentforge-tools",
+                    "Branch":  "main",
+                    "LocalRoot":  "C:/Users/Owner/Documents/#git/agentforgeframework-cpu/-agentforge-tools",
+                    "Remote":  "https://github.com/agentforgeframework-cpu/-agentforge-tools.git",
+                    "GitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                    "HumanBaseUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main",
+                    "RawBaseUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main",
+                    "GitFound":  true
+                },
+    "findings":  [
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "CHANGELOG.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/CHANGELOG.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/CHANGELOG.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "HELP.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/HELP.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/HELP.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "LOAD_FILE-REFERENCE-CHECK.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/LOAD_FILE-REFERENCE-CHECK.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/LOAD_FILE-REFERENCE-CHECK.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "QUICKSTART.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/QUICKSTART.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/QUICKSTART.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "README.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "RELEASE_NOTES.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/RELEASE_NOTES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/RELEASE_NOTES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "USER_GUIDE.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/USER_GUIDE.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/USER_GUIDE.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  ".vs/VSWorkspaceState.json",
+                         "Extension":  ".json",
+                         "Notes":  "No File Reference Information block found. JSON scanned but not auto-patched because standard JSON does not support comments.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/.vs/VSWorkspaceState.json",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/.vs/VSWorkspaceState.json",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  ".vs/-agentforge-tools.slnx/v18/DocumentLayout.backup.json",
+                         "Extension":  ".json",
+                         "Notes":  "No File Reference Information block found. JSON scanned but not auto-patched because standard JSON does not support comments.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/.vs/-agentforge-tools.slnx/v18/DocumentLayout.backup.json",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/.vs/-agentforge-tools.slnx/v18/DocumentLayout.backup.json",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  ".vs/-agentforge-tools.slnx/v18/DocumentLayout.json",
+                         "Extension":  ".json",
+                         "Notes":  "No File Reference Information block found. JSON scanned but not auto-patched because standard JSON does not support comments.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/.vs/-agentforge-tools.slnx/v18/DocumentLayout.json",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/.vs/-agentforge-tools.slnx/v18/DocumentLayout.json",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "core/CORRECTION_RULES.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/core/CORRECTION_RULES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/core/CORRECTION_RULES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "core/file-reference-check.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/core/file-reference-check.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/core/file-reference-check.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "core/FILE_REFERENCE_INFORMATION_STANDARD.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/core/FILE_REFERENCE_INFORMATION_STANDARD.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/core/FILE_REFERENCE_INFORMATION_STANDARD.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "core/VALIDATION_RULES.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/core/VALIDATION_RULES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/core/VALIDATION_RULES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/CHANGELOG.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/CHANGELOG.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/CHANGELOG.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/HELP.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/HELP.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/HELP.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/KIT_MANIFEST_CTS.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/KIT_MANIFEST_CTS.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/KIT_MANIFEST_CTS.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/QUICKSTART_CTS.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/QUICKSTART_CTS.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/QUICKSTART_CTS.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/RELEASE_NOTES.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/RELEASE_NOTES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/RELEASE_NOTES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/SETUP_CTS.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/SETUP_CTS.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/SETUP_CTS.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/USER_GUIDE.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/USER_GUIDE.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/USER_GUIDE.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/core-tools/DeepDive.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/DeepDive.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/core-tools/DeepDive.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/core-tools/NoteCleanup.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteCleanup.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/core-tools/NoteCleanup.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/core-tools/NoteIntake.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteIntake.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/core-tools/NoteIntake.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/core-tools/VisualBrief.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/VisualBrief.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/core-tools/VisualBrief.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/examples/test-01-basic-meal-planning.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-01-basic-meal-planning.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/examples/test-01-basic-meal-planning.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/examples/test-02-event-planning-with-constraints.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-02-event-planning-with-constraints.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/examples/test-02-event-planning-with-constraints.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "cts/examples/test-03-ai-modernization-decision-quality.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/examples/test-03-ai-modernization-decision-quality.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/cts/examples/test-03-ai-modernization-decision-quality.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "examples/example-correction-script.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/examples/example-correction-script.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/examples/example-correction-script.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "examples/example-missing-reference.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/examples/example-missing-reference.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/examples/example-missing-reference.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "examples/example-report.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/examples/example-report.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/examples/example-report.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "examples/example-valid-file.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/examples/example-valid-file.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/examples/example-valid-file.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/CHANGELOG.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/CHANGELOG.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/CHANGELOG.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/HELP.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/HELP.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/HELP.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/LOAD_FILE-REFERENCE-CHECK.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/LOAD_FILE-REFERENCE-CHECK.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/LOAD_FILE-REFERENCE-CHECK.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/QUICKSTART.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/QUICKSTART.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/QUICKSTART.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/RELEASE_NOTES.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/RELEASE_NOTES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/RELEASE_NOTES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/USER_GUIDE.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/USER_GUIDE.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/USER_GUIDE.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/core/CORRECTION_RULES.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/core/CORRECTION_RULES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/core/CORRECTION_RULES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/core/file-reference-check.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/core/file-reference-check.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/core/file-reference-check.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/core/FILE_REFERENCE_INFORMATION_STANDARD.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/core/FILE_REFERENCE_INFORMATION_STANDARD.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/core/FILE_REFERENCE_INFORMATION_STANDARD.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/core/VALIDATION_RULES.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/core/VALIDATION_RULES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/core/VALIDATION_RULES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/examples/example-correction-script.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/examples/example-correction-script.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/examples/example-correction-script.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/examples/example-missing-reference.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/examples/example-missing-reference.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/examples/example-missing-reference.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/examples/example-report.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/examples/example-report.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/examples/example-report.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "PASS",
+                         "File":  "file-reference-check/examples/example-valid-file.md",
+                         "Extension":  ".md",
+                         "Notes":  "",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/examples/example-valid-file.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/examples/example-valid-file.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/scripts/apply-file-reference-fixes.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/scripts/apply-file-reference-fixes.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/scripts/apply-file-reference-fixes.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "PASS",
+                         "File":  "file-reference-check/scripts/file-reference-check.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/scripts/file-reference-check.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/scripts/file-reference-check.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/scripts/git-helper-commands.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/scripts/git-helper-commands.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/scripts/git-helper-commands.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/validation/TEST_CASES.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/validation/TEST_CASES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/validation/TEST_CASES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "file-reference-check/validation/VALIDATION_LOG.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/validation/VALIDATION_LOG.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/validation/VALIDATION_LOG.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "file-reference-check/validation/VALIDATION_PLAN.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/file-reference-check/validation/VALIDATION_PLAN.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/file-reference-check/validation/VALIDATION_PLAN.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/CHANGELOG.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/CHANGELOG.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/CHANGELOG.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/HELP.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/HELP.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/HELP.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/QUICKSTART_FOUNDATION-TOOLS.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/QUICKSTART_FOUNDATION-TOOLS.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/QUICKSTART_FOUNDATION-TOOLS.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/SETUP_FOUNDATION-TOOLS.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/SETUP_FOUNDATION-TOOLS.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/SETUP_FOUNDATION-TOOLS.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/USER_GUIDE.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/USER_GUIDE.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/USER_GUIDE.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/core/chatexport.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/core/chatexport.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/core/chatexport.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/core/diag.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/core/diag.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/core/diag.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/core/math.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/core/math.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/core/math.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/core/override.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/core/override.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/core/override.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/core/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/core/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/core/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/core/rules.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/core/rules.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/core/rules.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/examples/chatexport_example.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/examples/chatexport_example.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/examples/chatexport_example.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/examples/diag_example.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/examples/diag_example.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/examples/diag_example.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/examples/math_example.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/examples/math_example.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/examples/math_example.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/examples/override_example.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/examples/override_example.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/examples/override_example.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/examples/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/examples/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/examples/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/examples/rules_example.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/examples/rules_example.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/examples/rules_example.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "foundation-tools/media/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/foundation-tools/media/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/foundation-tools/media/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "governance/RELEASE_CHECKLIST.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/governance/RELEASE_CHECKLIST.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/governance/RELEASE_CHECKLIST.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "governance/TOOLING_GUIDELINES.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/governance/TOOLING_GUIDELINES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/governance/TOOLING_GUIDELINES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "lessons-learned/PORTABILITY_FINDINGS.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/lessons-learned/PORTABILITY_FINDINGS.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/lessons-learned/PORTABILITY_FINDINGS.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "lessons-learned/README.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/lessons-learned/README.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/lessons-learned/README.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "lessons-learned/WAVE1_Conversion_Findings.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/lessons-learned/WAVE1_Conversion_Findings.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/lessons-learned/WAVE1_Conversion_Findings.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "scripts/apply-file-reference-fixes.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/scripts/apply-file-reference-fixes.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/scripts/apply-file-reference-fixes.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "scripts/file-reference-check.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/scripts/file-reference-check.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/scripts/file-reference-check.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "scripts/git-helper-commands.ps1",
+                         "Extension":  ".ps1",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/scripts/git-helper-commands.ps1",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/scripts/git-helper-commands.ps1",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "validation/TEST_CASES.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/validation/TEST_CASES.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/validation/TEST_CASES.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "MISSING",
+                         "File":  "validation/VALIDATION_LOG.md",
+                         "Extension":  ".md",
+                         "Notes":  "No File Reference Information block found.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/validation/VALIDATION_LOG.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/validation/VALIDATION_LOG.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  true
+                     },
+                     {
+                         "Status":  "INCOMPLETE_OR_MISMATCH",
+                         "File":  "validation/VALIDATION_PLAN.md",
+                         "Extension":  ".md",
+                         "Notes":  "Human URL missing or mismatched. Raw URL missing or mismatched. Git Domain missing or mismatched. Explanation missing.",
+                         "ExpectedHumanUrl":  "https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/validation/VALIDATION_PLAN.md",
+                         "ExpectedRawUrl":  "https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/validation/VALIDATION_PLAN.md",
+                         "ExpectedGitDomain":  "github.com/agentforgeframework-cpu/-agentforge-tools",
+                         "Patchable":  false
+                     }
+                 ],
+    "skipped":  [
+                    {
+                        "File":  ".gitignore",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  "LICENSE",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  ".git/COMMIT_EDITMSG",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/config",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/description",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/FETCH_HEAD",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/HEAD",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/index",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/ms-persist.xml",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/ORIG_HEAD",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/packed-refs",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/applypatch-msg.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/commit-msg.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/fsmonitor-watchman.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/post-update.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/pre-applypatch.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/pre-commit.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/pre-merge-commit.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/pre-push.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/pre-rebase.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/pre-receive.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/prepare-commit-msg.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/push-to-checkout.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/sendemail-validate.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/hooks/update.sample",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/info/exclude",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/logs/HEAD",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/logs/refs/heads/main",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/logs/refs/remotes/origin/HEAD",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/logs/refs/remotes/origin/main",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/00/01ca9d9eefebf2b879b9c8adda23c595876bbc",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/00/45197fbf2b889ee3a3d23f5431744849fff02d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/05/575507a1a11e096f0e158558f4191ff19ef8af",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/05/6167a2e024db588b7c917896e3e4ab9fd7f96a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/05/82cbce0555299675866bb026de9965a5ac1696",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/05/9252c2699256522cf7aba8fca5b267508417c7",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/06/e31629e411df52f2dc9570a1b2b36b730df4d0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/08/0134fea9414b6c1b9d6ce5503c466417b22730",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/08/51871abaea1fcba4e47ef027f98a1e71106de0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/08/b640d9e7813ca86d8a06c38c486be216d92d6f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/0b/3598ddb9abfe5a1cc5ec79d8acc3b252741f55",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/0c/89c618d3528547b1b5317cc7237d2fd318b365",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/0e/1a7b6ad679249ede91b4e13ab8356da013d41a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/0f/3467feebdfe56e88becea634685481eb47368c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/0f/4b2de939e7367b664146c0a3a939b30df8d30e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/11/b8cf955644626a8bdf1e169c1dcd91df02a673",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/14/dd3ed4b2019f757a1f8c2c15e2aa7eb251e689",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/14/e73ad6cff2fea7727fc96254ca7327b7320692",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/14/fb8464b63b5205e4cbd51ad44c7b993ac5ec97",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/16/d656eabf8424f9e78b4177f55ab65e9c273f9a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/17/915a46340a21011ab72bd22cf9adfdf4e8c4a9",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/17/e1e87d3db79e929f0c5133c7ddf184a7d9ff54",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/18/6e15e693165e56bc522f1f675d76a17b9c54ad",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/19/23d19dbd93aa3e2c7dce31ede481b06206cc99",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/1a/040f3fc33692f936ea471293ad7e08962c9fd9",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/1b/61c30baf405d3866f4c3f2e8b4a14c7227df0f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/1c/5df0e629516ac8b9c4abffefa25310e9b897c0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/1c/ac130e6738d742b4df05dd9f2f3b3238f8b71c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/1d/7d3529f38376812413c538e9647ec756788b0d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/1d/ecc734be3f8357d12c9de6cb1c1363aae9c7b6",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/1f/881f9134d52310d53cd5cf77c819b1f47dca0f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/20/a6a66a4ab6b14d17334ba44d6e82565c07188f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/22/8d988eb09e18976b40a45266ee55958e47bee5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/24/46b8fab6a1284d3a1599232e4249fc48a1a9a3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/28/6c2e0551e519d6b2865ce0e74749f3d4cb652a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/28/d5a3f49237f62617b14d7c0cd644138a666743",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/2a/61b8b8a072b1ff1d6018257483a7dd0d6e5374",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/2b/fb2df18bd5e54f0e071117dae6d13ebbcc2292",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/2c/23c797b8b3a11f06e4a367af9c732b27fc9c05",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/2c/b45f2676c8cc6b266faf58e9a3820596eeca30",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/2d/3c199f0fe5b2bc20c298f2b537f8417056c4de",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/2f/1b52f44e5779362509d96df8dfd10c5ba271db",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/31/2b09a376317af4cc074040112f393bd40399d0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/31/c43e7ab5b5cbd972c3e7f85e7ae912e88c37d3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/32/07670fee30f1d8c623872120c264ee78f3536d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/32/3796443738b63df79e1956b9e042678296b99a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/32/ecbf99923f610c2e37e706d3eb993252693ea5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/33/db8cf45c765d0c5e8ae93b209ea9fc06b20363",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/33/eb0f8d8283e89e380c3a22a37310877f1f33f9",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/37/8b0790527179d39ea110f3812fff5cc42fde07",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/38/abf1a95fdb46144911034f1571c7a5eb91fa99",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/3a/dcd8a9848ed02bab3421be03d2e5d8c02726ab",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/3d/120fd98583080f3a54a8a158d7cb910448acf0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/41/6911f976cc6dca5567e1c85fddce2971679388",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/41/c97fabda01a94e72f62da554319828915ad4bc",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/42/3ac62ec6a080c1b5166d3838f7b304ca637b5d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/43/e8db608d96291b42cb010b3b224e6f351b3e50",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/43/f38ef14d6e1b8778a36c610e62dedb9ff4e64c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/48/f56cd8371268edefa87f720ea651210cb20671",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4a/55b14aec11268e952ef3c0b58082db4ff4c136",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4b/45380ddf9a665e91215fb590e846c3c1d5de5e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4e/c714b9a766bee6d4f7508c91754764ec08be5a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4e/fea52f0f8552519787771937ca15612208f57d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4f/6671894fbbae5d6f42b2c1ff0d1a81dc66c899",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4f/845de908b76039895c21dfe88fad57ef425e7c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4f/9a35816df595fff6b379ce91985237d637fd7b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/4f/a79f534fb188f99c8a8e87cb6c94a73f2c3c87",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/52/7b0a51e283633971d9311f1f5c2d03f05f602b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/56/ce1a8ce72c6e080d532c74b35a7cac9b5f510f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/56/dea5ed56f2edf9490f9572fe59ed84e47653e4",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/57/e4b658f8548d0ebb8462d8eb32978635ecf070",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/58/edf8dc782b2fa56b4e76a45b81a9f9d0be48ca",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/59/1e9685fa0b88d5bf91bb2bbef7a37a8b363d6d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/59/7a852753c249394c635463c0b6ddc51de5e294",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/5b/e63ed0f1fac5bead79e6e8f2d0890d62819785",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/5c/394e34e038a69e869f4a712fa6554754ea5dff",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/5f/57cc38d385374bcd82d09158fa1c822ab0c95c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/5f/f368aa81ac69fd2e65bc96f7017c50a1a810f1",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/60/c9667f6195fefd4296d7860824b0c8c7c8b6fe",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/63/98e69a6d8c868334c27464bb74783d958bc8f5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/63/eac6fb3ea071e58039a3cca6d484662dfd629e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/65/7fcb1a1c76d0f1427daac6933cc8e8d99e5a56",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/65/df1fb219babb6825af6d19fab5bd451dabf8f1",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/66/3b2feb732c93804033dd0b6ea40ddaf73afe24",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/67/98f0b457b13cfd8d567a9fe785bef4e70da772",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/67/a879a0416fa2c7a9adb4d417516d2f719363f6",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/68/6542773a19cf98e0bbf853835bb8a86a000a35",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/69/0a0a44a52fd81bd543d8e1f6908ffea5495b53",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/69/d3b3e04a9f94855efb7aeae6ecf2c54e0cad8d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/6a/3e8d0866de1c839b55bae8f46345e8eec3dca8",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/6a/f8669f83750f17720371705bacb6ecbda455c0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/6b/021559aa79508aef0e85cca750b56eeea9061f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/6b/55a2ba8ad941def0b4ae6c1e3700a29f7cd3b1",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/6e/ab0e95f5ef09b150d786514f88367e02c06899",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/6e/d680b43024b2a2b00aa503d58c749af4186f69",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/6f/ab96d950f582d2f85ad268961a24ee6212ff3e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/70/5d6651770a3bdd53c6ac6088e0aabf3851248f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/71/c584069b908976ba0671f7a514980b51d3daa6",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/75/2dbb284341c72cf81291cb08a5523041664888",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/76/8e9a8f1ffcd1fe53a4819e54d822961b281d35",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/77/cac0bda6f5ac273643a3c2c69ce39bd92b584c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/78/13e67878c9dd3e6e2411d0f8a62fb04073efc2",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/78/afcd1b6fec83b022c0dcf0277c8a7de0f227db",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/78/b6d6fb1e5f7ef2bbd6a1b6fb9614dcbcc5324b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/7a/752a078ad12156500cbba5750acbb05d6d6b03",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/7a/cbf280866cff2fa79eb0b9749beec4f34b3b59",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/7b/4ec7ffc56a810900d7bb8a56acb4f9f8e279a4",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/7c/801fec274ac866bb76e0629f247d2ffe4d47d6",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/7e/139997072741067156b12d6d24e1de675bd02c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/7e/f9ec2709ce91c1aae8046a1f979a2e63b4508b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/7f/cca37eaa1fd71848e040088f360ce831d1f8f9",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/80/ba63c4ed54bf40500dca313bd844989c679cfb",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/81/49d1831ca40325ec561ccf10e3ff427f85a8cd",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/83/6f481afebaa6dbfe17e695c220ec6b0cea1980",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/86/74ebe1750e8a2e30d46c46190d082fc1abc578",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/86/c0dbbba9b64ac970a204abc375d637feec0603",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/87/b7f783560ef028f4c5384b0de7852427fed6b3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/87/cfbe03d742f40ab45b73b0a12061d16ea96c2f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/8a/2dfd7ae9b21f624470c7d92d6d46fd790c07d0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/8c/687eb3c447f7d81d19433a4c432bbceb02c340",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/8c/6d997d40f3f561d05ddd1afd1896154ea4d614",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/90/37075c0d941d39f12f62c626b097b54d96bd93",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/91/ed7c3698612ad8d6b63698005b91d0c6608354",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/92/41f2cbb33bf32a62ea00682ec6b86fe62a9850",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/94/827422fdceead7a9b64682b9bd7ceec2105b5e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/96/9e254860d1841b3361a02ce9c73645fb28ebe2",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/98/296a5f6780b2d846f223b1a0eee669c38a29c2",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/98/998dabdd4e05b54180ab1a6a313610eab4970f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/99/c6815dd96cef5134e306c67d65bc0eed0ccab2",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/9a/d3761d7090308c66ba60f4ef1c06ed04daa657",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/9b/5866ca6bac7a16060f9fe7cee69f00936e7fbb",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/9b/e90f6e4054644a5ee44d27ce4fee91dcecfc44",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/9d/1ca385d83e5e14c4a8776e37f9639d272aecd5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/9d/9f7b2ed5bf15fcc07af653a097f34512b9c61a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/9e/38dfb9408d0ded164ee04daf6e8c5860ce1ccc",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/9f/91bf1a0e4aea8435e977dbf3203eb7e56c9072",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a0/c83194efacffbfbaf59171363174f8453cc9aa",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a1/d9945e7469609d6811e345ce0a058ca084081d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a2/3e85a47df367ef377e061dfe1556d549dd8dc5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a2/735205658a03a1fd651e10d07040641ffc19dc",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a2/f147e5d013af1a0e911a78f4e9342e964adbbe",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a3/c1ea3ab1191cc8add65594950cb6e95c7526a5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a4/2e86feaf1d33a7ead5eaac9f93d8745611cfee",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a5/6e270106b68574833915917d76a28b1134bb0c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a6/a7176f3f5e4ce1a4b513aefcebaf3201faaa38",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a7/2b768fa2e04f5b459b62af926e4caf222d455e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a7/b833e1301a95ee1fde221983756d69a1f6dfec",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a8/b5e0cc68bf36eb30c6488f60c8a672313d8915",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/a9/e08f3dc6ea806ad5d8d0f7c4166aabbf6a80f0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ab/c0e7df155df08802a4de40f630c7374783e849",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ad/174595b242d7bbbd26cd65b601adb7f80702a9",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ad/d002a8a38100b46602883cc7e5d3b975bba47d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ae/3f696491e52278f4c2f6ed48521f53158277fd",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ae/702484494108686ffaa51261154da0e9bbe6a8",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/b1/b6151c2488f331b431cb0532b51d18a738422b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/b3/b9bd473f71ea9d1d134ead5f0a2e279d322268",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/b4/ffc459abb8973b189440f3cbbb6071ab77d84a",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/b6/00aaee19edc71a340f42cf777b1ec1f53277cc",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/b7/853ffed0fe51a1bf1f3e7f19bf84a6b76d0681",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/b9/3e58ba4036cf9302f85ea0f01ddf67b9c7affe",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/bd/538e4f31ef5e42378ee53754ff6a788af54cc3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/bd/e92e1089349bf9adf4f68e002fccf7708dd090",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/be/368f53bb0c35202e0d690123b2e92ca99887be",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/be/ec240cc5d27dc8ea99601c83e49b12ea0790b7",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c1/0c1ba3dffe0b84ce29815b1ad5821d126d7c97",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c1/b022e9a7cc5eb22b860fe0c862f1d2551d9386",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c2/88b87f3fe2f5470ff554680c546ac592fc5079",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c6/44199c4004e4747f016b736aa8ddc1837482c0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c6/8a6cdd33a20471cbda13b309a1ed06387022e0",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c6/b76ac593abd82e5dc62d4308130881ea9080aa",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c7/8fd97f1dc02ed6985e57324f8ed0bb79831171",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c9/76536325d174acf36fe7174f49cd38d1ffbca5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c9/a1cb3d58983ba8a1737d78e7fc096c8f38cad7",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/c9/dd1d5c24527043da3286a5de1fd997eb264c36",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/cb/affbfd50ac745dc469eeb10caaaa625e1e41ac",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/cc/4c31856b88e060576d436aaa6e49d64a32c2d5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/cd/26f6859cd2d97fd32b90e4a48e034b8826cc54",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ce/fa1942260d8c5c5f171ae9e0cba4eba9c33ead",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/cf/540679eb54105c40f158e2a212a2db6c317768",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d1/018d5c8e465c0403207185fc286ac34edb410e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d3/bcb8502e774c4f2b26835294fdde3b9a71951e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d4/25339dd66bb2c2b91536219799a60b5f492612",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d4/2729d8c59fa533fb7b253864805d210991cb18",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d5/a54cf5705ccac134b9ff38c6a0b2082fa731be",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d6/a4ecd3931061a014bfef4a6ebc5ad28f3c67e6",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/d8/77ce254ba2f1ead0c98641eeb07038e17aedd7",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/da/485eac2b7b33821e9aff9993f3b0f263a51a84",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/da/bebc7f302e362144193c5f0980ac445af5246e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/db/2767c7a6d29c1b0d41abd765acb3e1cabc26f5",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/db/393e9f1b8a4d914d4610579b16fd05c2ab2b44",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/dc/7377250828f9cea9e720c5c8a4a6b47d36d94d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/dd/7f5f22502758f0593056d6ae870865b67eebe3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/de/b2155f7f21ec267f75105a2d3251f81a31fdf2",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/de/b5bdf8c79dcf653894b74f4970a13bf72d8b3d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/df/0891da1cc49b6deb1249c766344bd928fcb6dc",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e1/442342cd3eda894125a7122ecadc0e1a114660",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e2/c720abde449100f4ee4eb09e1bbab643eca235",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e2/f8eca299b7bfcf5677fbaf9d3be86c53fa5e5e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e4/748682cbaa9a335f799e03439e3c917610c15d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e5/00995af7f06bccf5a5dea329081063a39c8f70",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e5/28bbca973758d05a3e6a11ebe6437d5fcf718d",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e5/2f7fc8f8686e374acae22213808f1661200537",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e5/d5394f9ec7c20da0374deea74aca840051b9aa",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e5/f55c3beb2418223419b71595e57f76a78b1adb",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e6/9a1c156a3469385481876184febd89ddc16fbe",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e8/1c294812d8a49e51975454e79e987fc014bb0f",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e8/736d36fdc3764fa0eb07c825d2371d851e9a26",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/e9/d1bd45166a5e465740448d718b202f4ddc0cbd",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ea/664d6d29ce7c6e8e91bc401de1e9222851a5cf",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ea/bc50424915c05191cd25b26cede0e88bc1145b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/eb/3d61ed7bec8590cef3d7b8fa259aa28bc6a3a7",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ec/0fed4d9a87718f975bf52791ba361e803eee81",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ed/9af15403c1325a73ec876193f4365da80be363",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ef/cd76b24202968ae65a85d1d5a37651f26f8144",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f0/ae1942ef30eab85cd8c3040b360eee788c637e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f0/e105833ad63e3b09d18e1fb61298db82d97b5b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f2/51891510bcb6fd558a9c11b7678d558cea2727",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f4/11f1d6f383bdf1bd066661f27d4d6ae0b2376c",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f4/aa4f1117e2ced7a7058212de19ceb65d0907b8",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f5/104529f078d179434695ac811c3812ea295d9e",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f5/b27ab1ea5ac9d85668d8ef40b02b0ea5c67f34",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f5/b9ff603c5511671501c33158648a286f4d88a6",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f6/f147aa538616ac649f310bc06123be3733750b",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f7/eec100dabd52717b2ca7ff30e1292ce7145e54",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f8/236874dcf815550061a250da2e097247cf3721",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/f8/aba101e7bc89512437757cb4386e9a0f190372",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/fa/1b58824ff6f354dc43171a2dbd6e930761c505",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/fa/3bdc99ddb4e2846a513d247a4af8fabefe2820",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/fc/0e9a978be93575f971f629ebc2c5e09cbbe3d1",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/fc/a719a6039e7682026345db2e72e2c0965b37e3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/fd/6ef25174d9f5d48d1414c234bd4995a1fffa51",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/fe/084914437286366cfc064bcf84f6db183207ca",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/fe/21c89c23d6eb04ed2988ce6d547084038637c3",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ff/80a32040720586f16d5bfd56d359bd9385b310",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ff/b0198f8c817f1559e0e0bdd59e82239eea1ccb",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/ff/e40439a52e49cf50900d2f8125fe0377d49a30",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/pack/pack-572fb46dd0cb2607bb1ccfcea3e2eef5c16b6321.idx",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/pack/pack-572fb46dd0cb2607bb1ccfcea3e2eef5c16b6321.pack",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/objects/pack/pack-572fb46dd0cb2607bb1ccfcea3e2eef5c16b6321.rev",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/refs/heads/main",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/refs/remotes/origin/HEAD",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".git/refs/remotes/origin/main",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  ".vs/slnx.sqlite",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  ".vs/-agentforge-tools.slnx/FileContentIndex/376a968a-b749-48e6-85c9-d23119a99d6a.vsidx",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  ".vs/-agentforge-tools.slnx/FileContentIndex/6e040fd7-8feb-47d5-9aed-1a484d0d8afb.vsidx",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  ".vs/-agentforge-tools.slnx/FileContentIndex/a232ba3c-0fb2-4aaa-8499-8da4637bff46.vsidx",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  ".vs/-agentforge-tools.slnx/FileContentIndex/b8ba5436-8c47-493f-9053-d5b423d024a9.vsidx",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  ".vs/-agentforge-tools.slnx/FileContentIndex/d9a8500f-6a02-492f-9933-a85e53618454.vsidx",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  ".vs/-agentforge-tools.slnx/v18/.wsuo",
+                        "Reason":  "Unsupported extension"
+                    },
+                    {
+                        "File":  "cts/media/cts-visualbrief-clean-think-share.png",
+                        "Reason":  "Excluded extension"
+                    },
+                    {
+                        "File":  "file-reference-check/outputs/file-reference-report.json",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "file-reference-check/outputs/file-reference-report.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "file-reference-check/outputs/README.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "file-reference-check/outputs/sample-deployment-manifest.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "file-reference-check/outputs/sample-file-reference-report.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "file-reference-check/outputs/sample-project-log-entry.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "foundation-tools/media/Foundation-Tools-Image.png",
+                        "Reason":  "Excluded extension"
+                    },
+                    {
+                        "File":  "foundation-tools/media/Standards-Image.png",
+                        "Reason":  "Excluded extension"
+                    },
+                    {
+                        "File":  "outputs/README.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "outputs/sample-deployment-manifest.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "outputs/sample-file-reference-report.md",
+                        "Reason":  "Excluded directory"
+                    },
+                    {
+                        "File":  "outputs/sample-project-log-entry.md",
+                        "Reason":  "Excluded directory"
+                    }
+                ],
+    "generated":  "2026-05-10T15:55:50"
+}
