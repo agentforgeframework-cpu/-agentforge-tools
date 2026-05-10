@@ -1,135 +1,105 @@
-# AgentForge Tools
+# file-reference-check
 
-Repository Path:
--agentforge-tools/README.md
-
-GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/README.md
-
-Raw Loading Location:
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/README.md
-
-## Purpose
-
-AgentForge Tools is a collection of operationally-focused AI support kits, workflows, standards, and utilities designed to improve:
-- clarity
-- portability
-- operational discipline
-- onboarding
-- AI-assisted workflows
-- human-centered operations
-
-AgentForge emphasizes:
-- practical usability
-- human judgment
-- operational clarity
-- portability realism
-- maintainability
-- “2 AM engineer” survivability
+Status: WORKING DRAFT  
+Version: 0.1  
+Purpose: Check and maintain standard File Reference Information blocks in AgentForge text files.
 
 ---
 
-# Major Components
+## What This Is
 
-## CTS
+`file-reference-check` is a lightweight local utility and documentation kit for checking whether text-based files include standard source-location metadata.
 
-CTS stands for:
-
-Capture → Clean → Think → Share
-
-CTS provides practical workflow tools for:
-- information intake
-- cleanup
-- structured analysis
-- visual summarization
-- operational thinking
-
-CTS is workflow-oriented.
+It helps humans and AI systems understand where a file came from, where its human-readable GitHub version lives, where its raw retrievable version lives, and what repository context owns it.
 
 ---
 
-## Foundation Tools
+## Core Principle
 
-`/foundation-tools/` contains reusable operational standards and support utilities used across AgentForge kits and workflows.
-
-Examples include:
-- diagnostics
-- math execution standards
-- rules handling
-- override behavior
-- export utilities
-
-Foundation Tools are reusable operational infrastructure.
+> Files should carry enough reference information to remain understandable after they are copied, zipped, downloaded, moved, or read by an AI system outside the original repository.
 
 ---
 
-# Human Start Here
+## What It Does
 
-If you are a human user:
+`file-reference-check` can:
 
-1. Read the QUICKSTART document for the kit you want to use.
-2. Review examples.
-3. Use SETUP documents only if instructed or if AI loading/bootstrap is required.
-
-Primary human onboarding documents:
-- QUICKSTART_*.md
-
----
-
-# AI / System Start Here
-
-If you are loading AgentForge into an AI system:
-
-1. Use the appropriate SETUP_*.md file.
-2. Follow explicit raw loading URLs exactly.
-3. Do not infer missing URLs.
-4. Perform any required self-check procedures after loading.
-
-Primary AI onboarding documents:
-- SETUP_*.md
+- detect GitHub repository details from a local Git clone
+- scan supported text files
+- check for File Reference Information blocks
+- report missing, incomplete, or mismatched references
+- generate Markdown and JSON reports
+- optionally generate a local PowerShell patch script for missing blocks
+- optionally pull latest changes safely and create a ZIP snapshot
 
 ---
 
-# Operational Philosophy
+## What It Does Not Do
 
-AgentForge favors:
-- operational clarity over architectural cleverness
-- practical usability over abstraction
-- lightweight governance over bureaucracy
-- human authority over automation mythology
+`file-reference-check` does not:
 
-Core principle:
+- enforce governance
+- modify GitHub directly
+- commit or push changes
+- overwrite local work during pull
+- patch unsupported structured formats
+- replace human review
 
-> Systems may assist operations.
-> Humans retain operational authority, judgment, and accountability.
-
-Reference:
-HIC-001_Human-in-Command_Standard.md
+The human owns the result.
 
 ---
 
-# Important Notes
+## Standard Workflow
 
-- AgentForge kits are intended to equip humans, not replace them.
-- Portability behavior may vary between AI systems.
-- Operational recovery paths should remain understandable under stress.
-- When something is discovered to be broken, fix it.
-
----
-
-# Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.5
-- Date: 2026-05-08
-
-Notes:
-- Drafted during Wave 1 conversion sprint stabilization.
+1. Human works from a local GitHub repository.
+2. Human runs the PowerShell script.
+3. The script detects repository details and scans files.
+4. The script writes a validation report.
+5. If requested, the script generates a local patch script.
+6. Human reviews and runs the patch script if appropriate.
+7. Human reviews Git changes.
+8. Human commits and pushes if satisfied.
 
 ---
 
-# License
+## Primary Script
 
-Paul McDonald Open Use License (MIT-style)
+```powershell
+.\file-reference-check\scripts\file-reference-check.ps1 -RepoPath "C:\Users\Owner\Documents\#git\agentforgeframework-cpu\-agentforge-tools"
+```
 
-© 2026 Paul McDonald
+Generate a patch script for missing blocks:
+
+```powershell
+.\file-reference-check\scripts\file-reference-check.ps1 -RepoPath "C:\Users\Owner\Documents\#git\agentforgeframework-cpu\-agentforge-tools" -GeneratePatch
+```
+
+Safely pull latest changes and create a ZIP snapshot:
+
+```powershell
+.\file-reference-check\scripts\file-reference-check.ps1 -Mode update-and-zip -RepoPath "C:\Users\Owner\Documents\#git\agentforgeframework-cpu\-agentforge-tools"
+```
+
+---
+
+## Current v0.1 Scope
+
+Primary environment:
+
+- Windows
+- PowerShell
+- GitHub repository
+- local Git clone
+
+Future releases may support macOS, Linux, Bash, Python, or other environments if operational need justifies it.
+
+---
+
+## Development & Test Environment
+
+- Platform: ChatGPT Web
+- Model: GPT-5.5 Thinking
+- Date: 2026-05-10
+- Notes: Initial v0.1 build created from Kit Builder operational discovery process.
+
+---
