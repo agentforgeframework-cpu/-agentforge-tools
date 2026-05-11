@@ -121,6 +121,38 @@ while still gaining substantial AI assistance.
 
 ---
 
+# Entry Points
+
+Use these files according to purpose:
+
+```text
+README.md
+```
+
+Browse/discovery layer for humans using GitHub or a file browser.
+
+```text
+SETUP_KIT-BUILDER.md
+```
+
+Machine-readable and machine-driven setup process. It should be processed as silently as practical.
+
+```text
+QUICKSTART_KIT-BUILDER.md
+```
+
+Human-readable quick operational path.
+
+```text
+core/MINIMUM_SURVIVABLE_WORKFLOW.md
+```
+
+Workflow-first guide for turning an operational idea into a survivable kit.
+
+Generic setup or quickstart names such as `SETUP.md` and `QUICKSTART.md` are not used for kit-builder. Scoped names preserve operational clarity.
+
+---
+
 # Current Scope
 
 kit-builder currently focuses on:
@@ -147,7 +179,8 @@ Current structure:
 ```text
 kit-builder/
     README.md
-    QUICKSTART.md
+    SETUP_KIT-BUILDER.md
+    QUICKSTART_KIT-BUILDER.md
     CHANGELOG.md
     RELEASE_NOTES.md
 

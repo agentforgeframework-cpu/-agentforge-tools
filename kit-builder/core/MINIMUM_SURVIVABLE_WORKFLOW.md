@@ -65,6 +65,55 @@ Survivability is primarily:
 
 ---
 
+# Setup and Quickstart Naming
+
+AgentForge uses scoped setup and quickstart files when those files are operationally justified.
+
+Pattern:
+
+```text
+SETUP_<scope>.md
+QUICKSTART_<scope>.md
+```
+
+Meaning:
+
+- `SETUP_<scope>.md` is the machine-readable and machine-driven setup process.
+- `QUICKSTART_<scope>.md` is the human-readable quick operational path.
+- `README.md` remains the browse/discovery layer.
+
+Avoid generic names such as:
+
+```text
+SETUP.md
+QUICKSTART.md
+```
+
+Scoped names reduce ambiguity during handoff, retrieval, setup, and 2 AM recovery.
+
+---
+
+# Legacy Scaffold Clarification
+
+Earlier AgentForge work used scaffold files such as:
+
+```text
+LOAD_*.md
+QUICKSTART.md
+HELP.md
+USER_GUIDE.md
+```
+
+Those files supported earlier needs such as raw GitHub loading, cross-AI ingestion, and fast bootstrap workflows.
+
+They are not default minimum survivability artifacts.
+
+Current kit-builder work starts with operational workflow artifacts, not loader-era scaffolds.
+
+Additional support files may be added when they are operationally justified, but they should not be recreated by habit.
+
+---
+
 # The Minimum Survivable Workflow
 
 ## Step 1 — Tell the Story
@@ -133,22 +182,36 @@ Survivable systems acknowledge constraints openly.
 
 ## Step 4 — Build the Minimum Viable Kit
 
-The minimum viable kit contains four survivability artifacts:
+The minimum viable kit begins with four survivability artifacts:
 
-### 1. The Story
+```text
+STORY.md
+DECISION_GUIDE.md
+CONSTRAINTS.md
+STEPS.md
+```
+
+### 1. STORY.md
 The operational narrative.
 
-### 2. The Decision Guide
+### 2. DECISION_GUIDE.md
 The Human-in-Command decision map.
 
-### 3. The Constraint List
+### 3. CONSTRAINTS.md
 The operational assumptions and boundaries.
 
-### 4. The Steps
+### 4. STEPS.md
 The operational procedure derived from the story.
 
 The steps support the story.
 They do not replace the story.
+
+Recovery and gap documentation complete the minimum survivability set:
+
+```text
+RECOVERY_STORY.md
+KNOWN_GAPS.md
+```
 
 Additional files may exist later:
 - scripts
@@ -156,7 +219,7 @@ Additional files may exist later:
 - examples
 - helper tools
 - validation tools
-- onboarding documents
+- scoped onboarding documents
 
 But those are enhancements, not the minimum survivable core.
 
