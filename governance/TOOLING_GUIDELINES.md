@@ -1,6 +1,5 @@
 # TOOLING_GUIDELINES.md — AgentForge Governance
 
-
 Repository Path:
 -agentforge-tools/governance/TOOLING_GUIDELINES.md
 
@@ -9,8 +8,8 @@ https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/governanc
 
 ---
 
-
 ## Purpose
+
 Defines how AgentForge tools are designed, structured, and released.
 
 These are build rules, not tools.
@@ -18,6 +17,7 @@ These are build rules, not tools.
 ---
 
 ## Core Principle
+
 Lightweight tools. Clear contracts. Predictable behavior.
 
 ---
@@ -25,26 +25,44 @@ Lightweight tools. Clear contracts. Predictable behavior.
 ## 1. Repository Structure
 
 /<toolkit>/
-  README.md
-  QUICKSTART.md
-  HELP.md
-  USER_GUIDE.md
-  LOAD_<toolkit>.md
-  CHANGELOG.md
+README.md
+SETUP_<toolkit>.md
+QUICKSTART_<toolkit>.md
+HELP.md
+USER_GUIDE.md
+CHANGELOG.md
 
-  /core/
-    *.md
+/core/
+*.md
 
-  /examples/
-    *_example.md
+Each operational folder must contain a local `README.md`.
 
-  /media/ (optional)
+The README should:
+
+* explain folder purpose
+* list immediate files
+* list immediate subfolders
+* support shallow navigation
+* assist human and AI traversal
+* help reconnect detached or copied content back to the authoritative repository structure
+
+The README directs:
+
+* humans toward `QUICKSTART_<kit>.md`
+* AI systems toward `SETUP_<kit>.md`
+
+
+/examples/
+*_example.md
+
+/media/ (optional)
 
 Additional folders are allowed as needed:
-- /backup/
-- /v1.1/, /v1.2/
-- /documents/
-- /data/
+
+* /backup/
+* /v1.1/, /v1.2/
+* /documents/
+* /data/
 
 These are optional and must not interfere with core structure.
 
@@ -52,8 +70,8 @@ These are optional and must not interfere with core structure.
 
 ## 2. File Role Separation
 
-LOAD_* = AI loading
-QUICKSTART = human onboarding
+SETUP_* = AI loading and setup orchestration
+QUICKSTART_* = human onboarding
 README = orientation
 HELP = quick reference
 USER_GUIDE = practical usage
@@ -63,12 +81,26 @@ Do not mix roles.
 
 ---
 
-## 3. Link Strategy
+## 3. File Reference Strategy
 
-AI loading → RAW links
-Human reading → BLOB links
+Applicable text-based files should include standardized file reference information.
 
-All RAW links must be tested directly.
+Reference information should support:
+
+* portability
+* traceability
+* survivability
+* AI retrieval
+* human navigation
+
+Include:
+
+* Human URL
+* Raw URL
+* Git Domain
+
+Raw links must be tested directly.
+
 
 ---
 
@@ -81,13 +113,14 @@ These are submission standards, not model controls.
 ## 5. Tool Requirements
 
 Each core file must include:
-- Command section
-- Guardrails
-- Success standard
-- Development block
-- License
-- File reference (self-link)
-- Blog reference
+
+* Command section
+* Guardrails
+* Success standard
+* Development block
+* License
+* File reference information
+* Blog reference
 
 ---
 
@@ -97,14 +130,16 @@ Each core file must include:
 
 ---
 
-## 7. Loader Rules
+## 7. Setup Rules
 
 Must:
+
 - use RAW links
 - enforce order
 - include failure protocol
 - include success confirmation
 - include troubleshooting
+- avoid retired naming conventions
 
 ---
 
@@ -119,13 +154,21 @@ Must:
 
 ## 9. File Integrity
 
-RAW must be readable markdown.
+Files should remain:
+
+- readable
+- portable
+- inspectable
+- AI-accessible
+- human-accessible
+
+Raw retrieval should function correctly where applicable.
 
 ---
 
 ## 10. Release Alignment
 
-Blog = Repo = Loader
+Blog = Repo = Setup
 
 ---
 
