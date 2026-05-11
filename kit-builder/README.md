@@ -267,3 +267,30 @@ Date:
 
 Notes:
 Initial README drafted after operational stabilization work on file-reference-check v0.1/v0.1.1.
+
+---
+
+# File Reference Information
+
+Repository path:
+```text
+kit-builder/README.md
+```
+
+Human URL:
+```text
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/README.md
+```
+
+Raw URL:
+```text
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/README.md
+```
+
+Git domain:
+```text
+github.com/agentforgeframework-cpu/-agentforge-tools
+```
+
+Purpose:
+These references support human review, raw-file retrieval, and repository-domain validation without relying on hidden context.

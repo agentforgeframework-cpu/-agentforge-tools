@@ -222,3 +222,30 @@ file-reference-check v0.1 successfully demonstrated that:
 - Human-in-Command architecture remains practical and effective
 
 These lessons should inform future Tool-Maker and Kit-Builder efforts.
+
+---
+
+# File Reference Information
+
+Repository path:
+```text
+kit-builder/lessons-learned/file-reference-check-v0.1.md
+```
+
+Human URL:
+```text
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/lessons-learned/file-reference-check-v0.1.md
+```
+
+Raw URL:
+```text
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/lessons-learned/file-reference-check-v0.1.md
+```
+
+Git domain:
+```text
+github.com/agentforgeframework-cpu/-agentforge-tools
+```
+
+Purpose:
+These references support human review, raw-file retrieval, and repository-domain validation without relying on hidden context.

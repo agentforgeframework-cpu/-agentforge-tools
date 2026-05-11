@@ -428,3 +428,30 @@ Date:
 
 Notes:
 Derived from operational validation work, survivability analysis, and workflow-story exploration performed during development of file-reference-check and kit-builder.
+
+---
+
+# File Reference Information
+
+Repository path:
+```text
+kit-builder/core/MINIMUM_SURVIVABLE_WORKFLOW.md
+```
+
+Human URL:
+```text
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/core/MINIMUM_SURVIVABLE_WORKFLOW.md
+```
+
+Raw URL:
+```text
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/core/MINIMUM_SURVIVABLE_WORKFLOW.md
+```
+
+Git domain:
+```text
+github.com/agentforgeframework-cpu/-agentforge-tools
+```
+
+Purpose:
+These references support human review, raw-file retrieval, and repository-domain validation without relying on hidden context.

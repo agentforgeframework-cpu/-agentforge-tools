@@ -143,3 +143,30 @@ Date:
 
 Notes:
 Created during kit-builder alignment with clarified AgentForge governance naming conventions.
+
+---
+
+# File Reference Information
+
+Repository path:
+```text
+kit-builder/SETUP_KIT-BUILDER.md
+```
+
+Human URL:
+```text
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/SETUP_KIT-BUILDER.md
+```
+
+Raw URL:
+```text
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/SETUP_KIT-BUILDER.md
+```
+
+Git domain:
+```text
+github.com/agentforgeframework-cpu/-agentforge-tools
+```
+
+Purpose:
+These references support human review, raw-file retrieval, and repository-domain validation without relying on hidden context.

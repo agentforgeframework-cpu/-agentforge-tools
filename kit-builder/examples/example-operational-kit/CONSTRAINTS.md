@@ -21,3 +21,30 @@ This kit does not solve:
 - root cause analysis
 
 It only helps preserve a useful troubleshooting note.
+
+---
+
+# File Reference Information
+
+Repository path:
+```text
+kit-builder/examples/example-operational-kit/CONSTRAINTS.md
+```
+
+Human URL:
+```text
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/examples/example-operational-kit/CONSTRAINTS.md
+```
+
+Raw URL:
+```text
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/examples/example-operational-kit/CONSTRAINTS.md
+```
+
+Git domain:
+```text
+github.com/agentforgeframework-cpu/-agentforge-tools
+```
+
+Purpose:
+These references support human review, raw-file retrieval, and repository-domain validation without relying on hidden context.

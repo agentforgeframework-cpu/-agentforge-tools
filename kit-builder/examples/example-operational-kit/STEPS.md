@@ -79,3 +79,30 @@ Run git --version in PowerShell before assuming Git is available.
 ## 7. Save the Note
 
 Store the note where future operators can find it.
+
+---
+
+# File Reference Information
+
+Repository path:
+```text
+kit-builder/examples/example-operational-kit/STEPS.md
+```
+
+Human URL:
+```text
+https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/kit-builder/examples/example-operational-kit/STEPS.md
+```
+
+Raw URL:
+```text
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/kit-builder/examples/example-operational-kit/STEPS.md
+```
+
+Git domain:
+```text
+github.com/agentforgeframework-cpu/-agentforge-tools
+```
+
+Purpose:
+These references support human review, raw-file retrieval, and repository-domain validation without relying on hidden context.
