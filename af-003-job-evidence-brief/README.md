@@ -40,7 +40,7 @@ Use Job Evidence Brief when:
 
 # Quick Start
 
-1. Open `core-tools/jobevidencebrief.md`.
+1. Open `tools/jobevidencebrief.md`.
 2. Provide:
 
    * the job posting
