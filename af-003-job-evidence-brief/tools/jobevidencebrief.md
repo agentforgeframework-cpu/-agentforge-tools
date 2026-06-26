@@ -1,15 +1,20 @@
-# AF-003 Job Evidence Brief v0.1
+# jobevidencebrief.md
 
-Status: FROZEN
-Repository State: TEST
+Repository:
+AF-003 — Job Evidence Brief (JEB)
 
-Last Updated: 2026-06-22
+Repository Index (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-003-job-evidence-brief/LIBRARY.md
 
-## Post-Freeze Corrections (v0.1a)
+This File (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-003-job-evidence-brief/tools/jobevidencebrief.md
 
-- No Architectural Change
-- No Workflow Change
-- No Scope Change
+Status: PRODUCTION
+
+Version: 1.0
+
+Released: 2026-06-26
+
 
 ## Purpose
 

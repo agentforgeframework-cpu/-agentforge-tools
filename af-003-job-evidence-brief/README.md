@@ -1,8 +1,17 @@
-# AF-003 — Job Evidence Brief (JEB)
+# README.md (root) AF-003 — Job Evidence Brief (JEB)
 
 **Kit Type:** Tool Kit
 **Status:** Production
 **Version:** 1.0
+
+Repository:
+AF-003 — Job Evidence Brief (JEB)
+
+Repository Index (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-003-job-evidence-brief/LIBRARY.md
+
+This File (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-003-job-evidence-brief/README.md
 
 ---
 
@@ -48,7 +57,7 @@ Use Job Evidence Brief when:
 | `README.md`   | Repository orientation and startup.                    |
 | `SETUP.md`    | Installation, deployment, and operational setup.       |
 | `LIBRARY.md`  | Complete repository inventory and navigation.          |
-| `core-tools/` | Primary Job Evidence Brief tool.                       |
+| `tools/`      | Primary Job Evidence Brief tool.                       |
 | `examples/`   | Canonical operational examples and reference material. |
 | `media/`      | Images and other operational media used by the kit.    |
 
