@@ -47,14 +47,17 @@ Resolve all repository objects through `ROOT_LIBRARY`.
 
 ---
 
-# Required Repository Object Types
+# Required Repository Objects
 
-Load all repository objects of the following types:
+Load the following repository objects before using this Tool Kit:
 
-* ROOT
-* TOOL
+- ROOT_README
+- ROOT_LIBRARY
+- JOB_EVIDENCE_BRIEF
 
-Repository object membership is defined by `ROOT_LIBRARY`.
+Additional repository objects may be loaded as needed.
+
+Use `ROOT_LIBRARY` to resolve all raw file locations.
 
 ---
 

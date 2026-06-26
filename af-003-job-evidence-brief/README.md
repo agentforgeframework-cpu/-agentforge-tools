@@ -59,7 +59,6 @@ Use Job Evidence Brief when:
 | `LIBRARY.md`  | Complete repository inventory and navigation.          |
 | `tools/`      | Primary Job Evidence Brief tool.                       |
 | `examples/`   | Canonical operational examples and reference material. |
-| `media/`      | Images and other operational media used by the kit.    |
 
 ---
 
