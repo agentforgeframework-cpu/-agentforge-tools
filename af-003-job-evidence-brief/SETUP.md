@@ -99,7 +99,7 @@ Do not continue with a partially loaded Tool Kit.
 After setup, confirm:
 
 * Repository successfully discovered.
-* Required repository object types loaded.
+* Required repository object loaded.
 * Tool Kit ready for operation.
 
 Do not execute any tool until requested by the user.
@@ -108,4 +108,4 @@ Do not execute any tool until requested by the user.
 
 # One-Line Summary
 
-> Discover the repository through `ROOT_LIBRARY` → Load required repository object types → Execute the appropriate tool when requested.
+> Discover the repository through `ROOT_LIBRARY` → Load required repository object → Execute the appropriate tool when requested.
