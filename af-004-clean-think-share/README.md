@@ -57,6 +57,19 @@ Load only the tool or tools required for the current task.
 
 ---
 
+# Operational Repository Objects
+
+The CTS Tool Kit provides these operational tools:
+
+| Handle       | Tool        | Purpose                                                                        |
+|--------------|-------------|--------------------------------------------------------------------------------|
+| NOTE_INTAKE  | NoteIntake  | Capture rapid, messy information without organizing or interpreting it.        |
+| NOTE_CLEANUP | NoteCleanup | Convert rough or noisy input into a clean, structured document.                |
+| DEEP_DIVE    | DeepDive    | Perform structured analysis on complex questions, decisions, or mixed signals. |
+| VISUAL_BRIEF | VisualBrief | Create a polished shareable visual summary from source material.               |
+
+---
+
 # Repository Contents
 
 ```text
