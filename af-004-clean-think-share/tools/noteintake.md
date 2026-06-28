@@ -1,15 +1,22 @@
-# NoteIntake.md — CTS Core Tool
+# noteintake.md - CTS Core Tool
 
-Repository Path:
--agentforge-tools/cts/core-tools/NoteIntake.md
+**Kit Type:** Tool Kit
+**Status:** Production Candidate
+**Version:** 1.0
 
-GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteIntake.md
+Repository:
+AF-004 - Clean Think Share (CTS)
+
+Repository Object:
+`ROOT_LIBRARY`
+
+Raw:
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/LIBRARY.md
+
+This File (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/tools/noteintake.md
 
 ---
-
-
-NoteIntake.md
 
 **Purpose:**
 - Gather input from multiple sources with minimal response.
@@ -72,91 +79,3 @@ NoteIntake.md
 
 > Be a good listener.
 > Help capture information.
-
----
-
-# Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.5 Thinking
-- Date: 2026-05-07
-
-Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-
----
-
-# License
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself for profit
-
-This material is provided "as is", without warranty of any kind.
-
----
-
----
-
-## File Reference
-
-GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteIntake.md
-
-Related Blog Article:  
-https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html
-
-AgentForge Blog:  
-https://agentforgeframework.blogspot.com/
-
-Version:  
-v1.0 (Published)
-
-Last Updated:  
-2026-05-04
-
----
-
-# Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.3
-- Date: 2026-05-04
-
-Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-- This block is for record-keeping and future development. It may appear in outputs but is not user-facing.
-
----
-
-# License
-
-This project is released under a permissive, MIT-style license.
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself as a standalone product
-
-This material is provided "as is", without warranty of any kind.
-
----

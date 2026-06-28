@@ -1,13 +1,22 @@
-# NoteCleanup.md — CTS Core Tool
+# notecleanup.md - CTS Core Tool
 
-Repository Path:
--agentforge-tools/cts/core-tools/NoteCleanup.md
+**Kit Type:** Tool Kit
+**Status:** Production Candidate
+**Version:** 1.0
 
-GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteCleanup.md
+Repository:
+AF-004 - Clean Think Share (CTS)
+
+Repository Object:
+`ROOT_LIBRARY`
+
+Raw:
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/LIBRARY.md
+
+This File (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/tools/notecleanup.md
 
 ---
-
 
 NoteCleanup.md
 
@@ -22,16 +31,16 @@ NoteCleanup.md
 
 ---
 
-## 1. Document Header (Flexible — Use What You Have)
+## 1. Document Header (Flexible - Use What You Have)
 
 **Source:**
 (e.g., meeting, transcript, audio recording, slide photos, chat input)
 
 **Context:**
-(optional — what this is about if known)
+(optional - what this is about if known)
 
 **Participants / Speaker(s):**
-(optional — include if known)
+(optional - include if known)
 
 **Date / Time:**
 (optional)
@@ -40,13 +49,13 @@ NoteCleanup.md
 (e.g., typed notes, audio capture, images, mixed)
 
 **Quality Notes:**
-(optional — note issues such as transcription errors, noise, missing data)
+(optional - note issues such as transcription errors, noise, missing data)
 
-**Why This Matters (1–2 sentences):**
+**Why This Matters (1-2 sentences):**
 Summarize the value or importance of this content in plain language.
 
 **Confidence Level:**
-(High / Medium / Low — based on input quality)
+(High / Medium / Low - based on input quality)
 
 ---
 
@@ -71,9 +80,9 @@ Guidelines:
 
 ---
 
-## 3. Executive Summary (Stabilized — Best Available Understanding)
+## 3. Executive Summary (Stabilized - Best Available Understanding)
 
-Provide a short, high-impact overview (5–10 bullets max):
+Provide a short, high-impact overview (5-10 bullets max):
 
 * What appears to be the main topic
 * What ideas or themes repeat
@@ -90,7 +99,7 @@ If input quality is low:
 - avoid over-interpreting unclear fragments
 - do not force structure where it does not exist
 
-> This section should stand alone for readers who won’t read further.
+> This section should stand alone for readers who won't read further.
 > It represents the best available understanding from the input provided.
 
 ---
@@ -99,13 +108,13 @@ If input quality is low:
 
 Summarize the main ideas as clearly as possible based on the input.
 
-### Concept 1 — [Working Title]
+### Concept 1 - [Working Title]
 
 * What it appears to be
 * Why it seems to matter
 * How it likely works (based on available signal)
 
-### Concept 2 — [Working Title]
+### Concept 2 - [Working Title]
 
 * Same structure
 
@@ -113,7 +122,7 @@ Guidelines:
 - Concepts may be reconstructed from repeated or consistent signals
 - Use simple, practical language
 - Avoid over-interpreting unclear or isolated fragments
-- If confidence is low, reflect that in wording (e.g., “appears to,” “likely,” “suggests”)
+- If confidence is low, reflect that in wording (e.g., "appears to," "likely," "suggests")
 - Do not force concepts where signal is weak
 
 Focus on:
@@ -125,7 +134,7 @@ Focus on:
 
 ---
 
-## 5. Key Shifts (Old → New, When Discernible)
+## 5. Key Shifts (Old -> New, When Discernible)
 
 Capture meaningful changes in thinking, approach, or direction when they can be identified from the input.
 
@@ -138,7 +147,7 @@ Capture meaningful changes in thinking, approach, or direction when they can be 
 Guidelines:
 - Include this section only if a shift is clearly present or strongly suggested
 - Shifts may be reconstructed from repeated contrasts or patterns in the input
-- Use cautious language when inferred (e.g., “appears to shift from…”, “suggests a move toward…”)
+- Use cautious language when inferred (e.g., "appears to shift from...", "suggests a move toward...")
 - Do not force a shift if none is evident
 - Avoid overstating differences when signal is weak
 
@@ -210,7 +219,7 @@ Common interpretation risks to consider:
 
 ---
 
-## 8. What This Means (Interpretation — Use with Care)
+## 8. What This Means (Interpretation - Use with Care)
 
 Translate the material into implications or meaning based on the available input.
 
@@ -219,7 +228,7 @@ Translate the material into implications or meaning based on the available input
 * What implications can be reasonably drawn
 
 Guidelines:
-- This section is interpretive — use cautious, grounded language
+- This section is interpretive - use cautious, grounded language
 - Base statements on consistent signals, not isolated fragments
 - Avoid projecting beyond what the input supports
 - Do not assume a specific audience unless clearly defined
@@ -386,7 +395,7 @@ Not:
 
 ## Length and Human Readability
 
-* Target: 1–3 pages
+* Target: 1-3 pages
 * Enough detail to be useful
 * Short enough to be read
 
@@ -399,7 +408,7 @@ Confirm:
 * No spelling or grammar errors
 * Clear structure
 * Actionable insights included
-* “What this means” section completed
+* "What this means" section completed
 * One-line summary present
 
 ---
@@ -408,91 +417,3 @@ Confirm:
 
 > Good notes inform.
 > Great notes create action.
-
----
-
-# Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.5 Thinking
-- Date: 2026-05-07
-
-Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-
----
-
-# License
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself for profit
-
-This material is provided "as is", without warranty of any kind.
-
----
-
----
-
-## File Reference
-
-GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/NoteCleanup.md
-
-Related Blog Article:  
-https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html
-
-AgentForge Blog:  
-https://agentforgeframework.blogspot.com/
-
-Version:  
-v1.0 (Published)
-
-Last Updated:  
-2026-05-04
-
----
-
-# Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.3
-- Date: 2026-05-04
-
-Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-- This block is for record-keeping and future development. It may appear in outputs but is not user-facing.
-
----
-
-# License
-
-This project is released under a permissive, MIT-style license.
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself as a standalone product
-
-This material is provided "as is", without warranty of any kind.
-
----

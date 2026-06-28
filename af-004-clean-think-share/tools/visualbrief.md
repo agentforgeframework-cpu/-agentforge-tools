@@ -1,20 +1,22 @@
-# VisualBrief.md — CTS Core Tool
+# visualbrief.md - CTS Core Tool
 
-Repository Path:
--agentforge-tools/cts/core-tools/VisualBrief.md
+**Kit Type:** Tool Kit
+**Status:** Production Candidate
+**Version:** 1.0
 
-GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/VisualBrief.md
+Repository:
+AF-004 - Clean Think Share (CTS)
+
+Repository Object:
+`ROOT_LIBRARY`
+
+Raw:
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/LIBRARY.md
+
+This File (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/tools/visualbrief.md
 
 ---
-
-
-VisualBrief.md
-
-Status: PRODUCTION
-Version: v1.0
-Owner: Paul McDonald
-Last Updated: 2026-04-28
 
 ## Change Log
 - v1.0: Promoted to production. Added source fidelity enforcement condition (Stage 4). Consolidated guardrails. Based on Test 1 and Test 2 review findings.
@@ -39,7 +41,7 @@ It prioritizes:
 
 ## Workflow
 
-### Stage 1 — Intake
+### Stage 1 - Intake
 Read the source material.
 Identify:
 - session title
@@ -51,11 +53,11 @@ Identify:
 
 If information is missing, proceed with reasonable placeholders only if the visual can still be useful.
 
-### Stage 2 — Content Brief
+### Stage 2 - Content Brief
 Create a short validated content brief:
 - headline
 - subtitle
-- 3–5 major points (hard maximum)
+- 3-5 major points (hard maximum)
 - 1 closing takeaway
 - optional footer/source note
 
@@ -67,7 +69,7 @@ Every item in the content brief must trace directly to the source notes.
 - Do not add sections, frameworks, or takeaways that were not in the original material.
 - If a point cannot be sourced, remove it or flag it explicitly as an addition.
 
-### Stage 3 — Editorial Check
+### Stage 3 - Editorial Check
 Before generating any visual, check:
 - spelling
 - grammar
@@ -85,7 +87,7 @@ Rewrite all visible text for:
 
 This pass happens after the source fidelity check and before layout.
 
-### Stage 4 — Visual Layout Spec
+### Stage 4 - Visual Layout Spec
 Create a simple visual plan:
 - format: square, landscape, portrait, or slide
 - layout type: card, quadrant, timeline, pyramid, flow, comparison, or checklist
@@ -112,7 +114,7 @@ If any visible text cannot be traced directly to the Stage 2 output:
 - Do not generate the image
 - Return a corrected spec instead
 
-### Stage 5 — Generate Visual
+### Stage 5 - Generate Visual
 Attempt image generation once.
 
 If the first image has spelling, grammar, layout, or readability problems:
@@ -122,7 +124,7 @@ If the first image has spelling, grammar, layout, or readability problems:
 
 Maximum image attempts: 2.
 
-### Stage 6 — Fallback Output
+### Stage 6 - Fallback Output
 If image generation remains unreliable, produce a polished non-image version:
 - PowerPoint slide
 - PDF handout
@@ -151,95 +153,7 @@ A successful VisualBrief should be:
 - visually clean
 - spelled correctly
 - useful without additional explanation
-- traceable — every visible claim sourced from the input
+- traceable - every visible claim sourced from the input
 
 ## Help
-help visualbrief → Show commands and workflow.
-
----
-
-# Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.5 Thinking
-- Date: 2026-05-07
-
-Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-
----
-
-# License
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself for profit
-
-This material is provided "as is", without warranty of any kind.
-
----
-
----
-
-## File Reference
-
-GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/core-tools/VisualBrief.md
-
-Related Blog Article:  
-https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html
-
-AgentForge Blog:  
-https://agentforgeframework.blogspot.com/
-
-Version:  
-v1.0 (Published)
-
-Last Updated:  
-2026-05-04
-
----
-
-# Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.3
-- Date: 2026-05-04
-
-Notes:
-- Developed and tested as part of the AgentForge / CTS workflow.
-- This block is for record-keeping and future development. It may appear in outputs but is not user-facing.
-
----
-
-# License
-
-This project is released under a permissive, MIT-style license.
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself as a standalone product
-
-This material is provided "as is", without warranty of any kind.
-
----
+help visualbrief -> Show commands and workflow.
