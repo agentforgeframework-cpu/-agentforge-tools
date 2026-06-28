@@ -1,13 +1,16 @@
 # License
 
 Repository:
-AF-003 — Job Evidence Brief (JEB)
+AF-004 — Clean Think Share (CTS)
 
-Repository Index (Raw):
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-003-job-evidence-brief/LIBRARY.md
+Repository Object:
+`ROOT_LIBRARY`
+
+Raw:
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/LIBRARY.md
 
 This File (Raw):
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-003-job-evidence-brief/LICENSE.md
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/LICENSE.md
 
 
 Paul McDonald Open Use License (MIT-style)

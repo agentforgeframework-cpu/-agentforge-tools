@@ -1,235 +1,95 @@
-# README.md — CTS
+# README.md
 
+**Kit Type:** Tool Kit
+**Status:** Production Candidate
+**Version:** 1.0
 
-Repository Path:
--agentforge-tools/cts/README.md
+Repository:
+AF-004 — Clean Think Share (CTS)
 
-GitHub URL:
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md
+Repository Object:
+`ROOT_LIBRARY`
 
----
+Raw:
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/LIBRARY.md
 
-
-GitHub Location:  
-https://github.com/agentforgeframework-cpu/-agentforge-tools/blob/main/cts/README.md
-
-Raw GitHub URL:  
-https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/main/cts/README.md
-
----
-
-## What This Is
-
-Clean–Think–Share (CTS) is an AgentForge Kit for turning messy, imperfect input into clear, actionable understanding.
-
-CTS follows a simple workflow:
-
-**Clean → Think → Share**
-
-The kit is intentionally built from small, focused tools that work together without merging responsibilities.
+This File (Raw):
+https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-004-clean-think-share/README.md
 
 ---
 
-## The Workflow
+# Purpose
 
-### 1. Clean — NoteCleanup
+Clean Think Share (CTS) is a collection of operational tools that transforms incomplete, messy, or unstructured information into clear, actionable results.
 
-Use NoteCleanup to:
-- organize messy notes
-- stabilize incomplete input
-- extract signal from noise
-- create reusable structured output
+Rather than functioning as a single tool, CTS provides several focused tools that may be used independently or together depending on the task.
+
+The objective is to help organize information, perform structured analysis, and produce high-quality outputs while maintaining clear separation of responsibilities between tools.
 
 ---
 
-### 2. Think — DeepDive
+# When to Use
 
-Use DeepDive to:
-- analyze ideas and decisions
-- identify risks and assumptions
-- apply structured thinking models
-- improve clarity and direction
+Use Clean Think Share when:
 
-DeepDive is optional. Use it when decision quality, strategy, risk, or structured thinking matters.
-
----
-
-### 3. Share — VisualBrief
-
-Use VisualBrief to:
-- create visual summaries
-- generate presentation-ready outputs
-- communicate findings clearly
-- create professional artifacts
+* Organizing messy notes or brainstorming sessions.
+* Converting rough ideas into structured information.
+* Performing deeper analysis or structured thinking.
+* Preparing reports, summaries, or presentation materials.
+* Improving the clarity and quality of information before sharing.
 
 ---
 
-## Included Core Tools
+# Quick Start
 
-| Tool | Purpose |
-|---|---|
-| NoteIntake | Rapid information gathering |
-| NoteCleanup | Stabilize messy input |
-| DeepDive | Structured analysis |
-| VisualBrief | Shareable visual communication |
-
-Core tools are located in:
-
-```text
-/core-tools/
-```
+1. Open `LIBRARY.md`.
+2. Determine which CTS tool best fits the current task.
+3. Load only the required tool(s).
+4. Execute the selected workflow.
+5. Repeat with additional tools as needed.
 
 ---
 
-## Key Files
+# Repository Contents
 
-| File | Purpose |
-|---|---|
-| README.md | Main kit overview |
-| QUICKSTART_CTS.md | Human fast-start guide |
-| SETUP_CTS.md | AI-assisted kit setup and orchestration |
-| KIT_MANIFEST_CTS.md | Example kit manifest for the canonical CTS kit |
-
----
-
-## Directory Structure
-
-```text
-/cts/
-  README.md
-  QUICKSTART_CTS.md
-  SETUP_CTS.md
-  KIT_MANIFEST_CTS.md
-
-  /core-tools/
-    NoteIntake.md
-    NoteCleanup.md
-    DeepDive.md
-    VisualBrief.md
-
-  /examples/
-    test-*.md
-
-  /validation/
-    optional
-
-  /governance/
-    optional, only when kit-specific governance is required
-```
+| Item         | Purpose                                                |
+| ------------ | ------------------------------------------------------ |
+| `README.md`  | Repository orientation and startup.                    |
+| `SETUP.md`   | Installation, deployment, and operational setup.       |
+| `LIBRARY.md` | Complete repository inventory and navigation.          |
+| `tools/`     | Primary CTS operational tools.                         |
+| `examples/`  | Canonical operational examples and reference material. |
+| `media/`     | Supporting media assets.                               |
 
 ---
 
-## Examples
+# Repository Philosophy
 
-The `/examples/` directory is required for production kits.
+This production repository contains operational artifacts only.
 
-Examples may include runnable usage tests such as:
-- `test-01-*.md`
-- `test-02-*.md`
-- `test-03-*.md`
+Educational materials, presentations, walkthroughs, workbooks, and other human-facing publications are maintained separately from the production repository.
 
-These are practical examples, not formal validation artifacts.
+CTS tools are designed to be loaded selectively. Load only the repository objects required for the current task.
 
 ---
 
-## Validation
+# Repository Navigation
 
-The `/validation/` directory is optional.
+For a complete inventory of repository contents, repository object handles, file locations, and navigation references, see:
 
-Use `/validation/` only when formal validation, regression testing, deployment checks, or production readiness evidence is required.
-
----
-
-## Governance
-
-CTS inherits governance from the central AgentForge governance repository.
-
-Do not duplicate central governance documents inside this kit.
-
-Use a local `/governance/` directory only when the kit requires additional kit-specific governance.
-
-Example:
-- only a licensed physician may use a cardiac decision-support kit
+`LIBRARY.md`
 
 ---
 
-## Core Principle
+# Next Step
 
-> Accept imperfect input. Produce reliable output.
+Proceed to:
 
----
+`SETUP.md`
 
-## 2 AM Engineer Test
-
-If a tired engineer cannot understand how to set up and use this kit at 2 AM, the kit is not clear enough.
-
-CTS should remain:
-- readable
-- operational
-- traceable
-- maintainable
-- simple to load
-- simple to explain
+to prepare the kit for use.
 
 ---
 
-## Design Philosophy
-
-- small tools
-- clear purpose
-- no unnecessary overlap
-- composable workflow
-- no hidden logic
-- traceable output
-- human-in-command operation
-
----
-
-## Related Files
-
-- QUICKSTART_CTS.md
-- SETUP_CTS.md
-- KIT_MANIFEST_CTS.md
-
----
-
-## Related Blog Article
-
-https://agentforgeframework.blogspot.com/2026/05/cts-clean-think-share.html
-
-AgentForge Blog:  
-https://agentforgeframework.blogspot.com/
-
----
-
-## Development & Test Environment
-
-- Platform: ChatGPT (Web)
-- Model: GPT-5.5 Thinking
-- Date: 2026-05-07
-
-Notes:
-- CTS serves as the first canonical AgentForge Kit conversion.
-- This file reflects the Step 2 conversion to canonical kit structure.
-
----
-
-## License
-
-This project is released under a permissive, MIT-style license.
-
-Paul McDonald Open Use License (MIT-style)
-
-© 2026 Paul McDonald
-
-You are free to:
-- Use this material for any purpose
-- Share it freely
-- Modify it as you see fit
-
-Under these conditions:
-- Keep this notice with any copies or substantial portions
-- Give credit to Paul McDonald where reasonable
-- Do not sell this material by itself as a standalone product
-
-This material is provided "as is", without warranty of any kind.
+**AF-004 — Clean Think Share (CTS)**
+AgentForge Tool Kit

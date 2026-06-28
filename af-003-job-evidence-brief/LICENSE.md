@@ -3,7 +3,10 @@
 Repository:
 AF-003 — Job Evidence Brief (JEB)
 
-Repository Index (Raw):
+Repository Object:
+`ROOT_LIBRARY`
+
+Raw:
 https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs/heads/main/af-003-job-evidence-brief/LIBRARY.md
 
 This File (Raw):
