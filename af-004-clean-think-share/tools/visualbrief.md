@@ -18,11 +18,6 @@ https://raw.githubusercontent.com/agentforgeframework-cpu/-agentforge-tools/refs
 
 ---
 
-## Change Log
-- v1.0: Promoted to production. Added source fidelity enforcement condition (Stage 4). Consolidated guardrails. Based on Test 1 and Test 2 review findings.
-- v0.2: Added Source Fidelity rule (Stage 2 + Guardrails). Added Density Cap rule (Stage 4 + Guardrails). Added Text Safety pass (Stage 3).
-- v0.1: Initial version.
-
 ## Purpose
 VisualBrief turns cleaned notes, DeepDive output, or other source material into a polished, shareable visual summary.
 

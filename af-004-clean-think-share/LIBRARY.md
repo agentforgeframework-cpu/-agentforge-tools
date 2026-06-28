@@ -5,7 +5,7 @@
 **Version:** 1.0
 
 Repository:
-AF-004 — Clean Think Share (CTS)
+AF-004 - Clean Think Share
 
 Repository Object:
 `ROOT_LIBRARY`
